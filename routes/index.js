@@ -1,15 +1,17 @@
 const express = require('express');
 const router = express.Router();
 
-const brand = require('../scripts/brand');
 const pages = require('../scripts/pages');
-brand.pageTitle = 'Table of Contents';
-brand.navigation = pages.getNavigation();
-brand.pages = pages.pages;
+
+const siteParams = require('../scripts/brand');
+siteParams.navigation = pages.getNavigation();
 
 /* GET home page. */
 router.get(pages.urlFor('index'), function(req, res, next) {
-  res.render('index', brand);
+  siteParams.pageTitle = 'Table of Contents';
+  siteParams.pages = pages.pages;
+
+  res.render('index', siteParams);
 });
 
 module.exports = router;

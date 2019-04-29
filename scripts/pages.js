@@ -12,7 +12,7 @@ const pages = {
     path: '/brand',
   },
   index: {
-    name: 'Index',
+    name: 'Home',
     path: '/',
   },
   using_sprites: {
@@ -23,9 +23,9 @@ const pages = {
     name: 'One Div Graphic',
     path: '/one-div',
   },
-  everything_HTML: {
+  everything_html: {
     name: 'Everything HTML',
-    path: '/everythingHTML',
+    path: '/everything_html',
   },
 };
 
@@ -44,4 +44,8 @@ function urlFor(key) {
   return pages[key].path;
 }
 
-module.exports = { pages, getNavigation, urlFor };
+function getInfo(key) {
+  return pages[key];
+}
+
+module.exports = { pages, getNavigation, urlFor, getInfo };

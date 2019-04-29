@@ -6,7 +6,7 @@ const brand = {
   author: {
     name: 'Austin Malmberg',
     email: 'amalmbe0@email.cpcc.edu',
-  },
+  }
 };
 
 module.exports = brand;
