@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h2= pageTitle
+  ul
+    each page in pages
+      li
+        a(href=page.path)
+          = page.name

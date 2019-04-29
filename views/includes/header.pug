@@ -1,0 +1,15 @@
+header
+
+  - const navClasses = ['navbar', 'navbar-expand-md', 'navbar-dark', 'bg-dark']
+  nav(class=navClasses)
+
+    a(href=navigation.index.path)
+      p.navbar-brand= title
+      p.navbar-slogan= slogan
+
+    ul.navbar-nav.ml-auto
+
+      each page in navigation
+        li.nav-item
+          a.nav-link(href=page.path class=`${ page.isDisabled ? 'disabled' : '' }`)
+            = page.name
