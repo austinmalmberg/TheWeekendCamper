@@ -1,5 +1,3 @@
-const pages = require('./pages');
-
 const brand = {
   title: 'The Weekend Camper',
   slogan: 'Get away when you can',

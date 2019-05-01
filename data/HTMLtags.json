@@ -1,0 +1,478 @@
+[
+    {
+        "tag": "&lt;!--&gt;",
+        "path": "https://www.w3schools.com/tags/tag_comment.asp"
+    },
+    {
+        "tag": "&lt;!DOCTYPE&gt;",
+        "path": "https://www.w3schools.com/tags/tag_doctype.asp"
+    },
+    {
+        "tag": "&lt;a&gt;",
+        "path": "https://www.w3schools.com/tags/tag_a.asp"
+    },
+    {
+        "tag": "&lt;abbr&gt;",
+        "path": "https://www.w3schools.com/tags/tag_abbr.asp"
+    },
+    {
+        "tag": "&lt;acronym&gt;",
+        "path": "https://www.w3schools.com/tags/tag_acronym.asp"
+    },
+    {
+        "tag": "&lt;address&gt;",
+        "path": "https://www.w3schools.com/tags/tag_address.asp"
+    },
+    {
+        "tag": "&lt;applet&gt;",
+        "path": "https://www.w3schools.com/tags/tag_applet.asp"
+    },
+    {
+        "tag": "&lt;area&gt;",
+        "path": "https://www.w3schools.com/tags/tag_area.asp"
+    },
+    {
+        "tag": "&lt;article&gt;",
+        "path": "https://www.w3schools.com/tags/tag_article.asp"
+    },
+    {
+        "tag": "&lt;aside&gt;",
+        "path": "https://www.w3schools.com/tags/tag_aside.asp"
+    },
+    {
+        "tag": "&lt;audio&gt;",
+        "path": "https://www.w3schools.com/tags/tag_audio.asp"
+    },
+    {
+        "tag": "&lt;b&gt;",
+        "path": "https://www.w3schools.com/tags/tag_b.asp"
+    },
+    {
+        "tag": "&lt;base&gt;",
+        "path": "https://www.w3schools.com/tags/tag_base.asp"
+    },
+    {
+        "tag": "&lt;basefont&gt;",
+        "path": "https://www.w3schools.com/tags/tag_basefont.asp"
+    },
+    {
+        "tag": "&lt;bdi&gt;",
+        "path": "https://www.w3schools.com/tags/tag_bdi.asp"
+    },
+    {
+        "tag": "&lt;bdo&gt;",
+        "path": "https://www.w3schools.com/tags/tag_bdo.asp"
+    },
+    {
+        "tag": "&lt;big&gt;",
+        "path": "https://www.w3schools.com/tags/tag_big.asp"
+    },
+    {
+        "tag": "&lt;blockquote&gt;",
+        "path": "https://www.w3schools.com/tags/tag_blockquote.asp"
+    },
+    {
+        "tag": "&lt;body&gt;",
+        "path": "https://www.w3schools.com/tags/tag_body.asp"
+    },
+    {
+        "tag": "&lt;br&gt;",
+        "path": "https://www.w3schools.com/tags/tag_br.asp"
+    },
+    {
+        "tag": "&lt;button&gt;",
+        "path": "https://www.w3schools.com/tags/tag_button.asp"
+    },
+    {
+        "tag": "&lt;canvas&gt;",
+        "path": "https://www.w3schools.com/tags/tag_canvas.asp"
+    },
+    {
+        "tag": "&lt;caption&gt;",
+        "path": "https://www.w3schools.com/tags/tag_caption.asp"
+    },
+    {
+        "tag": "&lt;center&gt;",
+        "path": "https://www.w3schools.com/tags/tag_center.asp"
+    },
+    {
+        "tag": "&lt;cite&gt;",
+        "path": "https://www.w3schools.com/tags/tag_cite.asp"
+    },
+    {
+        "tag": "&lt;code&gt;",
+        "path": "https://www.w3schools.com/tags/tag_code.asp"
+    },
+    {
+        "tag": "&lt;col&gt;",
+        "path": "https://www.w3schools.com/tags/tag_col.asp"
+    },
+    {
+        "tag": "&lt;colgroup&gt;",
+        "path": "https://www.w3schools.com/tags/tag_colgroup.asp"
+    },
+    {
+        "tag": "&lt;data&gt;",
+        "path": "https://www.w3schools.com/tags/tag_data.asp"
+    },
+    {
+        "tag": "&lt;datalist&gt;",
+        "path": "https://www.w3schools.com/tags/tag_datalist.asp"
+    },
+    {
+        "tag": "&lt;dd&gt;",
+        "path": "https://www.w3schools.com/tags/tag_dd.asp"
+    },
+    {
+        "tag": "&lt;del&gt;",
+        "path": "https://www.w3schools.com/tags/tag_del.asp"
+    },
+    {
+        "tag": "&lt;details&gt;",
+        "path": "https://www.w3schools.com/tags/tag_details.asp"
+    },
+    {
+        "tag": "&lt;dfn&gt;",
+        "path": "https://www.w3schools.com/tags/tag_dfn.asp"
+    },
+    {
+        "tag": "&lt;dialog&gt;",
+        "path": "https://www.w3schools.com/tags/tag_dialog.asp"
+    },
+    {
+        "tag": "&lt;dir&gt;",
+        "path": "https://www.w3schools.com/tags/tag_dir.asp"
+    },
+    {
+        "tag": "&lt;div&gt;",
+        "path": "https://www.w3schools.com/tags/tag_div.asp"
+    },
+    {
+        "tag": "&lt;dl&gt;",
+        "path": "https://www.w3schools.com/tags/tag_dl.asp"
+    },
+    {
+        "tag": "&lt;dt&gt;",
+        "path": "https://www.w3schools.com/tags/tag_dt.asp"
+    },
+    {
+        "tag": "&lt;em&gt;",
+        "path": "https://www.w3schools.com/tags/tag_em.asp"
+    },
+    {
+        "tag": "&lt;embed&gt;",
+        "path": "https://www.w3schools.com/tags/tag_embed.asp"
+    },
+    {
+        "tag": "&lt;fieldset&gt;",
+        "path": "https://www.w3schools.com/tags/tag_fieldset.asp"
+    },
+    {
+        "tag": "&lt;figcaption&gt;",
+        "path": "https://www.w3schools.com/tags/tag_figcaption.asp"
+    },
+    {
+        "tag": "&lt;figure&gt;",
+        "path": "https://www.w3schools.com/tags/tag_figure.asp"
+    },
+    {
+        "tag": "&lt;font&gt;",
+        "path": "https://www.w3schools.com/tags/tag_font.asp"
+    },
+    {
+        "tag": "&lt;footer&gt;",
+        "path": "https://www.w3schools.com/tags/tag_footer.asp"
+    },
+    {
+        "tag": "&lt;form&gt;",
+        "path": "https://www.w3schools.com/tags/tag_form.asp"
+    },
+    {
+        "tag": "&lt;frame&gt;",
+        "path": "https://www.w3schools.com/tags/tag_frame.asp"
+    },
+    {
+        "tag": "&lt;frameset&gt;",
+        "path": "https://www.w3schools.com/tags/tag_frameset.asp"
+    },
+    {
+        "tag": "&lt;h1&gt; - &lt;h6&gt;",
+        "path": "https://www.w3schools.com/tags/tag_hn.asp"
+    },
+    {
+        "tag": "&lt;head&gt;",
+        "path": "https://www.w3schools.com/tags/tag_head.asp"
+    },
+    {
+        "tag": "&lt;header&gt;",
+        "path": "https://www.w3schools.com/tags/tag_header.asp"
+    },
+    {
+        "tag": "&lt;hr&gt;",
+        "path": "https://www.w3schools.com/tags/tag_hr.asp"
+    },
+    {
+        "tag": "&lt;html&gt;",
+        "path": "https://www.w3schools.com/tags/tag_html.asp"
+    },
+    {
+        "tag": "&lt;i&gt;",
+        "path": "https://www.w3schools.com/tags/tag_i.asp"
+    },
+    {
+        "tag": "&lt;iframe&gt;",
+        "path": "https://www.w3schools.com/tags/tag_iframe.asp"
+    },
+    {
+        "tag": "&lt;img&gt;",
+        "path": "https://www.w3schools.com/tags/tag_img.asp"
+    },
+    {
+        "tag": "&lt;input&gt;",
+        "path": "https://www.w3schools.com/tags/tag_input.asp"
+    },
+    {
+        "tag": "&lt;ins&gt;",
+        "path": "https://www.w3schools.com/tags/tag_ins.asp"
+    },
+    {
+        "tag": "&lt;kbd&gt;",
+        "path": "https://www.w3schools.com/tags/tag_kbd.asp"
+    },
+    {
+        "tag": "&lt;label&gt;",
+        "path": "https://www.w3schools.com/tags/tag_label.asp"
+    },
+    {
+        "tag": "&lt;legend&gt;",
+        "path": "https://www.w3schools.com/tags/tag_legend.asp"
+    },
+    {
+        "tag": "&lt;li&gt;",
+        "path": "https://www.w3schools.com/tags/tag_li.asp"
+    },
+    {
+        "tag": "&lt;link&gt;",
+        "path": "https://www.w3schools.com/tags/tag_link.asp"
+    },
+    {
+        "tag": "&lt;main&gt;",
+        "path": "https://www.w3schools.com/tags/tag_main.asp"
+    },
+    {
+        "tag": "&lt;map&gt;",
+        "path": "https://www.w3schools.com/tags/tag_map.asp"
+    },
+    {
+        "tag": "&lt;mark&gt;",
+        "path": "https://www.w3schools.com/tags/tag_mark.asp"
+    },
+    {
+        "tag": "&lt;meta&gt;",
+        "path": "https://www.w3schools.com/tags/tag_meta.asp"
+    },
+    {
+        "tag": "&lt;meter&gt;",
+        "path": "https://www.w3schools.com/tags/tag_meter.asp"
+    },
+    {
+        "tag": "&lt;nav&gt;",
+        "path": "https://www.w3schools.com/tags/tag_nav.asp"
+    },
+    {
+        "tag": "&lt;noframes&gt;",
+        "path": "https://www.w3schools.com/tags/tag_noframes.asp"
+    },
+    {
+        "tag": "&lt;noscript&gt;",
+        "path": "https://www.w3schools.com/tags/tag_noscript.asp"
+    },
+    {
+        "tag": "&lt;object&gt;",
+        "path": "https://www.w3schools.com/tags/tag_object.asp"
+    },
+    {
+        "tag": "&lt;ol&gt;",
+        "path": "https://www.w3schools.com/tags/tag_ol.asp"
+    },
+    {
+        "tag": "&lt;optgroup&gt;",
+        "path": "https://www.w3schools.com/tags/tag_optgroup.asp"
+    },
+    {
+        "tag": "&lt;option&gt;",
+        "path": "https://www.w3schools.com/tags/tag_option.asp"
+    },
+    {
+        "tag": "&lt;output&gt;",
+        "path": "https://www.w3schools.com/tags/tag_output.asp"
+    },
+    {
+        "tag": "&lt;p&gt;",
+        "path": "https://www.w3schools.com/tags/tag_p.asp"
+    },
+    {
+        "tag": "&lt;param&gt;",
+        "path": "https://www.w3schools.com/tags/tag_param.asp"
+    },
+    {
+        "tag": "&lt;picture&gt;",
+        "path": "https://www.w3schools.com/tags/tag_picture.asp"
+    },
+    {
+        "tag": "&lt;pre&gt;",
+        "path": "https://www.w3schools.com/tags/tag_pre.asp"
+    },
+    {
+        "tag": "&lt;progress&gt;",
+        "path": "https://www.w3schools.com/tags/tag_progress.asp"
+    },
+    {
+        "tag": "&lt;q&gt;",
+        "path": "https://www.w3schools.com/tags/tag_q.asp"
+    },
+    {
+        "tag": "&lt;rp&gt;",
+        "path": "https://www.w3schools.com/tags/tag_rp.asp"
+    },
+    {
+        "tag": "&lt;rt&gt;",
+        "path": "https://www.w3schools.com/tags/tag_rt.asp"
+    },
+    {
+        "tag": "&lt;ruby&gt;",
+        "path": "https://www.w3schools.com/tags/tag_ruby.asp"
+    },
+    {
+        "tag": "&lt;s&gt;",
+        "path": "https://www.w3schools.com/tags/tag_s.asp"
+    },
+    {
+        "tag": "&lt;samp&gt;",
+        "path": "https://www.w3schools.com/tags/tag_samp.asp"
+    },
+    {
+        "tag": "&lt;script&gt;",
+        "path": "https://www.w3schools.com/tags/tag_script.asp"
+    },
+    {
+        "tag": "&lt;section&gt;",
+        "path": "https://www.w3schools.com/tags/tag_section.asp"
+    },
+    {
+        "tag": "&lt;select&gt;",
+        "path": "https://www.w3schools.com/tags/tag_select.asp"
+    },
+    {
+        "tag": "&lt;small&gt;",
+        "path": "https://www.w3schools.com/tags/tag_small.asp"
+    },
+    {
+        "tag": "&lt;source&gt;",
+        "path": "https://www.w3schools.com/tags/tag_source.asp"
+    },
+    {
+        "tag": "&lt;span&gt;",
+        "path": "https://www.w3schools.com/tags/tag_span.asp"
+    },
+    {
+        "tag": "&lt;strike&gt;",
+        "path": "https://www.w3schools.com/tags/tag_strike.asp"
+    },
+    {
+        "tag": "&lt;strong&gt;",
+        "path": "https://www.w3schools.com/tags/tag_strong.asp"
+    },
+    {
+        "tag": "&lt;style&gt;",
+        "path": "https://www.w3schools.com/tags/tag_style.asp"
+    },
+    {
+        "tag": "&lt;sub&gt;",
+        "path": "https://www.w3schools.com/tags/tag_sub.asp"
+    },
+    {
+        "tag": "&lt;summary&gt;",
+        "path": "https://www.w3schools.com/tags/tag_summary.asp"
+    },
+    {
+        "tag": "&lt;sup&gt;",
+        "path": "https://www.w3schools.com/tags/tag_sup.asp"
+    },
+    {
+        "tag": "&lt;svg&gt;",
+        "path": "https://www.w3schools.com/tags/tag_svg.asp"
+    },
+    {
+        "tag": "&lt;table&gt;",
+        "path": "https://www.w3schools.com/tags/tag_table.asp"
+    },
+    {
+        "tag": "&lt;tbody&gt;",
+        "path": "https://www.w3schools.com/tags/tag_tbody.asp"
+    },
+    {
+        "tag": "&lt;td&gt;",
+        "path": "https://www.w3schools.com/tags/tag_td.asp"
+    },
+    {
+        "tag": "&lt;template&gt;",
+        "path": "https://www.w3schools.com/tags/tag_template.asp"
+    },
+    {
+        "tag": "&lt;textarea&gt;",
+        "path": "https://www.w3schools.com/tags/tag_textarea.asp"
+    },
+    {
+        "tag": "&lt;tfoot&gt;",
+        "path": "https://www.w3schools.com/tags/tag_tfoot.asp"
+    },
+    {
+        "tag": "&lt;th&gt;",
+        "path": "https://www.w3schools.com/tags/tag_th.asp"
+    },
+    {
+        "tag": "&lt;thead&gt;",
+        "path": "https://www.w3schools.com/tags/tag_thead.asp"
+    },
+    {
+        "tag": "&lt;time&gt;",
+        "path": "https://www.w3schools.com/tags/tag_time.asp"
+    },
+    {
+        "tag": "&lt;title&gt;",
+        "path": "https://www.w3schools.com/tags/tag_title.asp"
+    },
+    {
+        "tag": "&lt;tr&gt;",
+        "path": "https://www.w3schools.com/tags/tag_tr.asp"
+    },
+    {
+        "tag": "&lt;track&gt;",
+        "path": "https://www.w3schools.com/tags/tag_track.asp"
+    },
+    {
+        "tag": "&lt;tt&gt;",
+        "path": "https://www.w3schools.com/tags/tag_tt.asp"
+    },
+    {
+        "tag": "&lt;u&gt;",
+        "path": "https://www.w3schools.com/tags/tag_u.asp"
+    },
+    {
+        "tag": "&lt;ul&gt;",
+        "path": "https://www.w3schools.com/tags/tag_ul.asp"
+    },
+    {
+        "tag": "&lt;var&gt;",
+        "path": "https://www.w3schools.com/tags/tag_var.asp"
+    },
+    {
+        "tag": "&lt;video&gt;",
+        "path": "https://www.w3schools.com/tags/tag_video.asp"
+    },
+    {
+        "tag": "&lt;wbr&gt;",
+        "path": "https://www.w3schools.com/tags/tag_wbr.asp"
+    }
+]

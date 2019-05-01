@@ -23,9 +23,9 @@ const pages = {
     name: 'One Div Graphic',
     path: '/one-div',
   },
-  everything_html: {
+  htmltags: {
     name: 'Everything HTML',
-    path: '/everything_html',
+    path: '/htmltags',
   },
 };
 
