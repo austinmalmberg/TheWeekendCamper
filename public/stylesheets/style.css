@@ -1,8 +1,70 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  min-width: 460px;
 }
 
 a {
   color: #00B7FF;
+}
+
+ul {
+  padding-left: 2.4em;
+}
+
+li {
+  list-style: none;
+}
+
+/* create dash before list item */
+li::before {
+  content: '-';
+  display: inline-block;
+  padding-right: .4em;
+}
+
+/* HEADER */
+nav {
+  background: url('/images/papers.co-my86-camping-night-star-galaxy-milky-sky-dark-space-bw-dark-29-wallpaper.jpg') no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+
+.brand-logo:hover {
+  text-decoration: none;
+}
+
+.navbar-brand {
+  font-size: 2em;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+.navbar-slogan {
+  margin-top: -.8em;
+}
+
+
+/* CONCEPTS BAR */
+.concepts * {
+  font-size: .8rem;
+  margin: 0;
+}
+
+
+/* MAIN CONTENT */
+.main {
+  min-height: 60vh;
+}
+
+
+/* HOMEPAGE */
+.concepts-container * {
+  margin: 0
+}
+
+
+/* ABOUT */
+.section-firstclass {
+  padding: 1em;
+  margin-top: .6em;
+  margin-bottom: .6em;
 }

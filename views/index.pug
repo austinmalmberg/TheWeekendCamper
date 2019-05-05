@@ -2,10 +2,15 @@ extends layout
 
 block content
   h2= page.title
-  ul
+  .toc
     each page in site.pages
-      li
-        a(href=page.path)
-          =page.name
+      section.section-firstclass.border.rounded.my-2.py-2
+        h4
+          a(href=page.path)
+            =page.name
         if page.concepts
-          = ` - ${page.concepts}`
+          .concepts-container
+            p Concepts:
+            ul.dash-list
+              each item in page.concepts
+                li= `${item}`

@@ -1,17 +1,19 @@
-header.container
+- const cHeader = ['container', 'site-header'];
+- const cNav = ['navbar', 'navbar-expand-md', 'navbar-dark'];
+- const cNavbar = ['navbar-nav', 'ml-auto'];
 
-  - const navClasses = ['navbar', 'navbar-expand-md', 'navbar-dark', 'bg-dark']
-  nav(class=navClasses)
+
+header(class=cHeader)
+
+  nav(class=cNav)
 
     - const homepageUrl = site.urlFor('index');
-    a(href=`${homepageUrl}`)
-      p.navbar-brand= brand.title
-      p.navbar-slogan= brand.slogan
+    a.p-4(href=`${homepageUrl}` class='brand-logo')
+      p.m-0.navbar-brand= brand.title
+      p.navbar-slogan.text-right= brand.slogan
 
-    ul.navbar-nav.ml-auto
-
-    - const navbar = site.getNavbar();
-    each page in navbar
-      li.nav-item
-        a.nav-link(href=`${page.path}` class=`${ page.isDisabled ? 'disabled' : '' }`)
-          =page.name
+    section(class=cNavbar)
+      - const navbar = site.getNavbar();
+      each page in navbar
+          a.nav-itme.nav-link(href=`${page.path}` class=`${ page.isDisabled ? 'disabled' : '' }`)
+            =page.name

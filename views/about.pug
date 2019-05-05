@@ -1,30 +1,44 @@
 extends layout
 
 block content
+
+  - const cSection = ['section-firstclass','border', 'rounded'];
+
   h2= about.name
-  h3= page.title
+  section(class=cSection)
+      h5= page.title
+      p= about.introduction
 
-  h5 Personal Background
-  p= about.background.personal
+  section(class=cSection)
+    h5 Personal Background
+    p= about.background.personal
 
-  h5 Professional Background
-  p= about.background.professional
+  section(class=cSection)
+    h5 Professional Background
+    p= about.background.professional
 
-  h5 Academic Background
-  p= about.background.academic
+  section(class=cSection)
+    h5 Academic Background
+    p= about.background.academic
 
-  h5 Computer Platform
-  p= about.primary_platform
+  section(class=cSection)
+    h5 Computer Platform
+    p= about.primary_platform
 
-  h5 Courses
-  each course in about.courses
-    li= `${course.name} -- ${course.reason}`
+  section(class=cSection)
+    h5 Courses
+    ul
+      each course in about.courses
+        li= `${course.name} -- ${course.reason}`
 
-  h5 How To Remember Me
-  p= about.remember_me
+  section(class=cSection)
+    h5 How To Remember Me
+    p= about.remember_me
 
-  h5 Links
-  each link in about.links
-    li
-      a(href=`${link.url}`)
-        = link.name
+  section(class=cSection)
+    h5 Links
+    ul
+      each link in about.links
+        li
+          a(href=`${link.url}`)
+            = link.name

@@ -1,6 +1,6 @@
-
 .compass {
-  margin: 20px auto;
+  position: relative;
+  margin: 0 auto;
   width: 400px;
   height: 400px;
   background: white;
@@ -12,8 +12,8 @@
 .compass:before {
   content: '';
   position: absolute;
-  left: 940px;
-  top: 355px;
+  left: 170px;
+  top: 170px;
   border: 20px solid black;
   border-color: #ccc #222;transform: scale(3) rotate(135deg) skew(50deg, 50deg)
 }
@@ -21,8 +21,8 @@
 .compass:after {
   content: '';
   position: absolute;
-  left: 940px;
-  top: 355px;
+  left: 170px;
+  top: 170px;
   border: 20px solid black;
   border-color: #ccc #222;
   border-left-color: #9f0000;

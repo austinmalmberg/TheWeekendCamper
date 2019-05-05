@@ -18,7 +18,7 @@ const pages = {
     name: 'Home',
     path: '/',
     title: 'Table of Contents',
-    concepts: ['Branding', 'Dynamic TOC', 'Test out MEAN']
+    concepts: ['Branding', 'Dynamic TOC', 'MEAN', 'Nodejs', 'Express', 'Bootstrap']
   },
   gear: {
     name: 'Gear',
@@ -29,7 +29,7 @@ const pages = {
   compass: {
     name: 'Compass',
     path: '/one-div',
-    title: 'Introduction',
+    title: 'Compass',
     concepts: ['One div graphic']
   },
   codecademy_port: {

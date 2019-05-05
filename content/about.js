@@ -1,5 +1,6 @@
 const about = {
   name: "Austin Malmberg",
+  introduction: "Hi, my name is Austin Malmberg.  I love camping and hiking, but outdoor gear can get expensive and I'm forced to work to support my passion.  I can't usually take off work to go camping so I'm forced to do it on weekends, hence the name, The Weekend Camper.",
   background: {
     personal: "I live in Denver (No, not Colorado) and I've been working at CPCC since 2008.",
     professional: "I started part-time at CPCC in the ITS Help Desk answering phones.  From there, I was hired full-time around 2012 where I now assist with inventory management and ITS procurement.",

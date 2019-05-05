@@ -1,3 +1,6 @@
+- const cConcepts = ['mt-3', 'py-2', 'px-5', 'border', 'border-info', 'alert', 'alert-info'];
+- const cMain = ['py-2'];
+
 doctype html
 html(lang='en')
   head
@@ -10,18 +13,19 @@ html(lang='en')
       meta(charset='utf-8')
       link(rel='stylesheet', href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css', integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T', crossorigin='anonymous')
       link(rel='stylesheet', href='/stylesheets/style.css')
-  body
 
+  body
     include includes/header
 
-    .container.themes
-      if page && page.concepts
-        p!= 'This page demonstrates the following concepts:'
-        ul
-          each concepts in page.concepts
-            li=concepts
+    if page && page.concepts
+      .container
+        .concepts(class=cConcepts)
+            p!= 'This page demonstrates the following concepts:'
+            ul.dash-list
+              each concepts in page.concepts
+                li=concepts
 
-    .container.main
+    .container.main(class=cMain)
       block content
 
     include includes/footer
