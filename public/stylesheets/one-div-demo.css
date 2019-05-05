@@ -1,0 +1,31 @@
+
+.compass {
+  margin: 20px auto;
+  width: 400px;
+  height: 400px;
+  background: white;
+  border: 10px solid black;
+  border-radius: 100%;
+  box-shadow: inset 0px 0px 40px 30px #888;
+}
+
+.compass:before {
+  content: '';
+  position: absolute;
+  left: 940px;
+  top: 355px;
+  border: 20px solid black;
+  border-color: #ccc #222;transform: scale(3) rotate(135deg) skew(50deg, 50deg)
+}
+
+.compass:after {
+  content: '';
+  position: absolute;
+  left: 940px;
+  top: 355px;
+  border: 20px solid black;
+  border-color: #ccc #222;
+  border-left-color: #9f0000;
+  border-top-color: #ef0000;
+  transform: scale(3) rotate(45deg) skew(50deg, 50deg)
+}

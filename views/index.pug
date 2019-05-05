@@ -1,9 +1,9 @@
 extends layout
 
 block content
-  h2= pageTitle
+  h2= page.title
   ul
-    each page in pages
+    each page in site.pages
       li
         a(href=page.path)
           = page.name

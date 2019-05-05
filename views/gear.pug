@@ -1,0 +1,17 @@
+extends layout
+
+append head
+  link(rel='stylesheet', href='/stylesheets/spritesheet-demo.css')
+
+block content
+  h2= page.title
+  p= gear.introduction
+
+  each item in gear.items
+    section
+      h3= `${item.type} | ${item.name}`
+      each paragraph in item.info
+        p= paragraph
+      p= `Purchased for $${item.price}`
+      .gearsheet(id=`img-${item.id}`)
+      a#top(href='#') Top

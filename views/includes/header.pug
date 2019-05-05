@@ -3,13 +3,15 @@ header
   - const navClasses = ['navbar', 'navbar-expand-md', 'navbar-dark', 'bg-dark']
   nav(class=navClasses)
 
-    a(href='/')
+    - const homepageUrl = site.urlFor('index');
+    a(href=`${homepageUrl}`)
       p.navbar-brand= brand.title
       p.navbar-slogan= brand.slogan
 
     ul.navbar-nav.ml-auto
 
-    each page in navigation
+    - const navbar = site.getNavbar();
+    each page in navbar
       li.nav-item
         a.nav-link(href=`${page.path}` class=`${ page.isDisabled ? 'disabled' : '' }`)
           =page.name
