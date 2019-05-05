@@ -6,4 +6,6 @@ block content
     each page in site.pages
       li
         a(href=page.path)
-          = page.name
+          =page.name
+        if page.concepts
+          = ` - ${page.concepts}`

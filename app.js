@@ -4,6 +4,9 @@ const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 
+const brand = require('./content/brand');
+const site = require('./content/site');
+
 const app = express();
 
 // view engine setup
@@ -36,7 +39,10 @@ app.use((err, req, res, next) => {
 
   // render the error page
   res.status(err.status || 500);
-  res.render('error');
+  res.render('error', {
+    brand: brand,
+    site: site
+  });
 });
 
 module.exports = app;

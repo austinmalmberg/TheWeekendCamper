@@ -17,19 +17,20 @@ const pages = {
   index: {
     name: 'Home',
     path: '/',
-    title: 'Table of Contents'
+    title: 'Table of Contents',
+    concepts: ['Branding', 'Dynamic TOC', 'Test out MEAN']
   },
   gear: {
     name: 'Gear',
     path: '/gear',
     title: 'Current Gear',
-    demonstrates: 'Using sprites'
+    concepts: ['Using sprites']
   },
   compass: {
     name: 'Compass',
     path: '/one-div',
     title: 'Introduction',
-    demonstrates: 'One div graphic'
+    concepts: ['One div graphic']
   },
   codecademy_port: {
     name: 'Codecademy Webpage Port',
@@ -39,8 +40,8 @@ const pages = {
     name: 'Everything HTML',
     path: '/htmltags',
     title: 'Everything HTML',
-    demonstrates: 'Webpage scraping'
-  },
+    concepts: ['Webpage scraping', 'MongoDB', 'Basic CRUD']
+  }
 };
 
 function getNavbar() {
