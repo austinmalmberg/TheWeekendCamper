@@ -2,7 +2,6 @@ const express = require('express');
 const router = express.Router();
 
 const site = require('../content/site');
-const brand = require('../content/brand');
 const about = require('../content/about');
 const gear = require('../content/gear');
 

@@ -15,11 +15,11 @@ const pages = {
     path: '/contract',
     title: 'Contract'
   },
-  brand: {
+  /*brand: {
     name: 'My Brand',
     path: '/brand',
     title: 'My Brand'
-  },
+  },*/
   codecademy_port: {
     name: 'Codecademy Webpage Port',
     path: '/codecademy-port'
@@ -40,7 +40,13 @@ const pages = {
     name: 'Everything HTML',
     path: '/htmltags',
     title: 'Everything HTML',
-    concepts: ['Webpage scraping', 'Dynamic HTML', 'Basic CRUD', 'MongoDB']
+    concepts: ['Webpage scraping', 'Dynamic HTML']
+  },
+  feedback: {
+    name: 'Feedback',
+    path: '/feedback',
+    title: 'Leave Me Some Feedback',
+    concepts: ['Basic CRUD', 'MongoDB', 'Cookies']
   }
 };
 

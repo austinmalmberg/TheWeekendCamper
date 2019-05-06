@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  - const cForm = [];
+  - const cRow = [];
+  - const cInput = [];
+
+  mixin formInput(labelText, type, inputId)
+    .col
+      label(for=`${inputId}`)= labelText
+      input.form-control(id=`${inputId}`)
+
+  if page && page.title
+    h2= page.title
+    form
+      .form-group
+        +formInput('Name', 'text', 'name-input')
+        +formInput('Title', 'text', 'title-input')
+      .form-group
