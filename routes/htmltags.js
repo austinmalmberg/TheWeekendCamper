@@ -42,16 +42,4 @@ router.get('/', retrieveTagData, (req, res, next) => {
   });
 });
 
-router.post('/', (req, res, next) => {
-  res.send('post request');
-});
-
-router.put('/', (req, res, next) => {
-  res.send('put request');
-});
-
-router.delete('/', (req, res, next) => {
-  res.send('delete request');
-});
-
 module.exports = router;
