@@ -23,10 +23,9 @@ let nextId = 1;
 
 app.use((req, res, next) => {
 
-  if(!req.cookies.id)
+  if(!req.cookies.id) {
     res.cookie('id', nextId);
-
-  console.log(req.cookies);
+  }
 
   next();
 });

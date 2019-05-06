@@ -13,9 +13,13 @@ block content
   if page && page.title
     h2= page.title
     section.section-firstclass.border.rounded
-      form
-        +formInput('Name', 'text', 'name-input')
-        +formInput('Subject', 'text', 'title-input')
+      form(method='POST')
+        .form-group
+          label(for='name-input') Name
+          input.form-control(id='name-input' type='text' value=`${ visitor_info && visitor_info.name ? visitor_info.name : '' }`)
+        .form-group
+          label(for='subject-input') Subject
+          input.form-control(id='subject-input' type='text')
         .form-group
           label(for='msg-input') Message
           textArea.form-control(id='msg-input' rows='3')

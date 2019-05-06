@@ -3,7 +3,7 @@ const pages = {
     name: 'Home',
     path: '/',
     title: 'Table of Contents',
-    concepts: ['Branding', 'Dynamic TOC', 'MEAN', 'Nodejs', 'Express', 'Bootstrap', 'Cookies']
+    concepts: ['Branding', 'Dynamic TOC', 'MEAN', 'Nodejs', 'Express', 'Bootstrap']
   },
   about: {
     name: 'About',
@@ -46,7 +46,7 @@ const pages = {
     name: 'Feedback',
     path: '/feedback',
     title: 'Leave Some Feedback!',
-    concepts: ['Basic CRUD', 'MongoDB']
+    concepts: ['Basic CRUD', 'MongoDB', 'Cookies']
   }
 };
 
