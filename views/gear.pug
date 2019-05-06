@@ -4,14 +4,20 @@ append head
   link(rel='stylesheet', href='/stylesheets/spritesheet-demo.css')
 
 block content
+
+  - const cGear = ['section-firstclass', 'border', 'rounded', 'd-flex', 'justify-content-between'];
+
   h2= page.title
   p= gear.introduction
 
   each item in gear.items
-    section
-      h3= `${item.type} | ${item.name}`
-      each paragraph in item.info
-        p= paragraph
-      p= `Purchased for $${item.price}`
+    section(class=cGear)
+      .info-container.my-auto
+        h3= `${item.type} | `
+          a(href=`${item.where_to_buy}`)
+            =item.name
+        each paragraph in item.info
+          p= paragraph
+        p= `Purchased for $${item.price}`
       .gearsheet(id=`img-${item.id}`)
-      a.top(href='#') Top
+    a.top(href='#') Top

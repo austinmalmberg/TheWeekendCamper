@@ -1,478 +1,597 @@
 [
     {
-        "tag": "&lt;!--&gt;",
-        "path": "https://www.w3schools.com/tags/tag_comment.asp"
+        "tag_name": "<!-->",
+        "path": "https://www.w3schools.com/tags/tag_comment.asp",
+        "description": "<p>The comment tag is used to insert comments in the source code. Comments are not displayed in the browsers.</p>\r\n<p>You can use comments to explain your code, which can help you when you edit the source code at a later date. This is \r\nespecially useful if you have a lot of code.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;!DOCTYPE&gt;",
-        "path": "https://www.w3schools.com/tags/tag_doctype.asp"
+        "tag_name": "<!DOCTYPE>",
+        "path": "https://www.w3schools.com/tags/tag_doctype.asp",
+        "description": "<p>The &lt;!DOCTYPE&gt; declaration must be the very first thing in your HTML \r\ndocument, before the &lt;html&gt; tag.</p>\r\n<p>The &lt;!DOCTYPE&gt; declaration is not an HTML tag; it is an instruction to the web browser about what version of \r\nHTML the page is written in.</p>\r\n<p>In HTML 4.01, the &lt;!DOCTYPE&gt; declaration refers to a DTD, because HTML 4.01 \r\nwas based on SGML. The DTD specifies the rules for the markup language, so that \r\nthe browsers render the content correctly.</p>\r\n<p>HTML5 is not based on SGML, and therefore does not require a reference to a \r\nDTD.</p>\r\n<p><b>Tip:</b> Always add the &lt;!DOCTYPE&gt; declaration to your HTML documents, so \r\nthat the browser knows what type of document to expect.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;a&gt;",
-        "path": "https://www.w3schools.com/tags/tag_a.asp"
+        "tag_name": "<a>",
+        "path": "https://www.w3schools.com/tags/tag_a.asp",
+        "description": "<p>The &lt;a&gt; tag defines a hyperlink, which is used to link from one page to another.</p>\r\n<p>The most important attribute of the &lt;a&gt; element is the href attribute, which indicates the link's destination.</p>\r\n<p>By default, links will appear as follows in all browsers:</p>\r\n<ul>\r\n  <li>An unvisited link is underlined and blue</li>\r\n  <li>A visited link is underlined and purple</li>\r\n  <li>An active link is underlined and red</li>\r\n</ul>\r\n<hr>"
     },
     {
-        "tag": "&lt;abbr&gt;",
-        "path": "https://www.w3schools.com/tags/tag_abbr.asp"
+        "tag_name": "<abbr>",
+        "path": "https://www.w3schools.com/tags/tag_abbr.asp",
+        "description": "<p>The &lt;abbr&gt; tag defines an abbreviation or an acronym, like \"Mr.&quot;, \r\n&quot;Dec.&quot;, &quot;ASAP&quot;, &quot;ATM&quot;.</p>\r\n<p><strong>Tip:</strong> An abbreviation and an acronym are both shortened \r\nversions of something else. Both are often represented as a series of letters.</p>\r\n<p>Marking up abbreviations can give useful information to browsers, translation systems and search-engines.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;acronym&gt;",
-        "path": "https://www.w3schools.com/tags/tag_acronym.asp"
+        "tag_name": "<acronym>",
+        "path": "https://www.w3schools.com/tags/tag_acronym.asp",
+        "description": "<p><span class=\"deprecated\">The &lt;acronym&gt; tag is not supported in HTML5. Use the \r\n<a href=\"https://www.w3schools.com/tags/tag_abbr.asp\">&lt;abbr&gt;</a> tag instead.</span></p>\r\n<p>The &lt;acronym&gt; tag defines an acronym.</p>\r\n<p>An acronym must spell out another word. For example: NASA, ASAP, GUI.</p>\r\n<p>Marking up acronyms can give useful information to browsers, translation systems and search-engines.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;address&gt;",
-        "path": "https://www.w3schools.com/tags/tag_address.asp"
+        "tag_name": "<address>",
+        "path": "https://www.w3schools.com/tags/tag_address.asp",
+        "description": "<p>The &lt;address&gt; tag defines the contact information for the author/owner of a document \r\nor an article.</p>\r\n<p>If the &lt;address&gt; element is inside the &lt;body&gt; element, it represents contact information \r\nfor the document.</p>\r\n<p>If the &lt;address&gt; element is inside an &lt;article&gt; element, it represents contact information \r\nfor that article.</p>\r\n<p>The text in the &lt;address&gt; element usually renders in <i>italic</i>. Most browsers will\r\nadd a line break before and after the address element.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;applet&gt;",
-        "path": "https://www.w3schools.com/tags/tag_applet.asp"
+        "tag_name": "<applet>",
+        "path": "https://www.w3schools.com/tags/tag_applet.asp",
+        "description": "<p><span class=\"deprecated\">The &lt;applet&gt; tag is not supported in HTML5. Use \r\n<a href=\"https://www.w3schools.com/tags/tag_embed.asp\">&lt;embed&gt;</a> or <a href=\"https://www.w3schools.com/tags/tag_object.asp\">&lt;object&gt;</a> instead.</span></p>\r\n<p>The &lt;applet&gt; tag defines an embedded applet.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;area&gt;",
-        "path": "https://www.w3schools.com/tags/tag_area.asp"
+        "tag_name": "<area>",
+        "path": "https://www.w3schools.com/tags/tag_area.asp",
+        "description": "<p>The &lt;area&gt; tag defines an area inside an image-map (an image-map is an image with clickable areas).</p>\r\n<p>The &lt;area&gt; element is always nested inside a &lt;map&gt; tag.</p>\r\n<p><b>Note:</b> The usemap attribute in the <a href=\"https://www.w3schools.com/tags/tag_img.asp\">&lt;img&gt;</a> tag is associated with \r\nthe <a href=\"https://www.w3schools.com/tags/tag_map.asp\">&lt;map&gt;</a> element's name attribute, and creates a relationship between the image and the map.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;article&gt;",
-        "path": "https://www.w3schools.com/tags/tag_article.asp"
+        "tag_name": "<article>",
+        "path": "https://www.w3schools.com/tags/tag_article.asp",
+        "description": "<p>The &lt;article&gt; tag specifies independent, self-contained content.</p>\r\n<p>An article should make sense on its own and it should be possible to \r\ndistribute it independently from the rest of the site.</p>\r\n<p>Potential sources for the &lt;article&gt; element:</p>\r\n<ul>\r\n  <li>Forum post</li>\r\n  <li>Blog post</li>\r\n  <li>News story</li>\r\n  <li>Comment</li>\r\n</ul>\r\n<hr>"
     },
     {
-        "tag": "&lt;aside&gt;",
-        "path": "https://www.w3schools.com/tags/tag_aside.asp"
+        "tag_name": "<aside>",
+        "path": "https://www.w3schools.com/tags/tag_aside.asp",
+        "description": "<p>The &lt;aside&gt; tag defines some content aside from the content it is placed in.</p>\r\n<p>The aside content should be related to the surrounding content.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;audio&gt;",
-        "path": "https://www.w3schools.com/tags/tag_audio.asp"
+        "tag_name": "<audio>",
+        "path": "https://www.w3schools.com/tags/tag_audio.asp",
+        "description": "<p>The &lt;audio&gt; tag defines sound, such as music or other audio streams.</p>\r\n<p>Currently, there are 3 supported file formats for the &lt;audio&gt; element: MP3, WAV, and OGG:</p>\r\n<table class=\"w3-table-all notranslate\" id=\"table1\">\r\n<tr>\r\n<th style=\"width:25%\">Browser</th>\r\n<th style=\"width:25%\">MP3</th>\r\n<th style=\"width:25%\">WAV</th>\r\n<th style=\"width:25%\">OGG</th>\r\n</tr>\r\n<tr>\r\n<td>Internet Explorer</td>\r\n<td>YES</td>\r\n<td>NO</td>\r\n<td>NO</td>\r\n</tr>\r\n<tr>\r\n<td>Chrome</td>\r\n<td>YES</td>\r\n<td>YES</td>\r\n<td>YES</td>\r\n</tr>\r\n<tr>\r\n<td>Firefox</td>\r\n<td>YES</td>\r\n<td>YES</td>\r\n<td>YES</td>\r\n</tr>\r\n<tr>\r\n<td>Safari</td>\r\n<td>YES</td>\r\n<td>YES</td>\r\n<td>NO</td>\r\n</tr>\r\n<tr>\r\n<td>Opera</td>\r\n<td>YES</td>\r\n<td>YES</td>\r\n<td>YES</td>\r\n</tr>\r\n</table>\r\n\r\n<h3>MIME Types for Audio Formats</h3>\r\n<table class=\"w3-table-all notranslate\" id=\"table2\">\r\n<tr>\r\n<th style=\"width:50%\">Format</th>\r\n<th style=\"width:50%\">MIME-type</th>\r\n</tr>\r\n<tr>\r\n<td>MP3</td>\r\n<td>audio/mpeg</td>\r\n</tr>\r\n<tr>\r\n<td>OGG</td>\r\n<td>audio/ogg</td>\r\n</tr>\r\n<tr>\r\n<td>WAV</td>\r\n<td>audio/wav</td>\r\n</tr>\r\n</table>\r\n<hr>\r\n<div id=\"midcontentadcontainer\" style=\"overflow:auto;text-align:center\">\r\n<!-- MidContent -->\r\n\r\n  <div id='div-gpt-ad-1493883843099-0' style=\"display: inline-block\">\r\n    <script>\r\n    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1493883843099-0'); });\r\n    </script>\r\n  </div>\r\n    \r\n</div>\r\n<hr>"
     },
     {
-        "tag": "&lt;b&gt;",
-        "path": "https://www.w3schools.com/tags/tag_b.asp"
+        "tag_name": "<b>",
+        "path": "https://www.w3schools.com/tags/tag_b.asp",
+        "description": "<p>The &lt;b&gt; tag specifies bold text.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;base&gt;",
-        "path": "https://www.w3schools.com/tags/tag_base.asp"
+        "tag_name": "<base>",
+        "path": "https://www.w3schools.com/tags/tag_base.asp",
+        "description": "<p>The &lt;base&gt; tag specifies the base URL/target for all relative URLs in a document.</p>\r\n<p>There can be at maximum one &lt;base&gt; element in a document, and it must be inside the &lt;head&gt; element.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;basefont&gt;",
-        "path": "https://www.w3schools.com/tags/tag_basefont.asp"
+        "tag_name": "<basefont>",
+        "path": "https://www.w3schools.com/tags/tag_basefont.asp",
+        "description": "<p><span class=\"deprecated\">The &lt;basefont&gt; tag is not supported in HTML5. Use \r\nCSS instead.</span></p>\r\n<p>The &lt;basefont&gt; tag specifies a default text-color, font-size, or font-family for all the text in a document.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;bdi&gt;",
-        "path": "https://www.w3schools.com/tags/tag_bdi.asp"
+        "tag_name": "<bdi>",
+        "path": "https://www.w3schools.com/tags/tag_bdi.asp",
+        "description": "<p>BDI stands for Bi-Directional Isolation.</p>\r\n<p>The &lt;bdi&gt; tag isolates a part of text that might be formatted in a different direction from other text outside it.</p>\r\n<p>This element is useful when embedding user-generated content with an unknown directionality.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;bdo&gt;",
-        "path": "https://www.w3schools.com/tags/tag_bdo.asp"
+        "tag_name": "<bdo>",
+        "path": "https://www.w3schools.com/tags/tag_bdo.asp",
+        "description": "<p>bdo stands for Bi-Directional Override.</p>\r\n<p>The &lt;bdo&gt; tag is used to override the current text direction.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;big&gt;",
-        "path": "https://www.w3schools.com/tags/tag_big.asp"
+        "tag_name": "<big>",
+        "path": "https://www.w3schools.com/tags/tag_big.asp",
+        "description": "<p><span class=\"deprecated\">The &lt;big&gt; tag is not supported in HTML5. Use \r\nCSS instead.</span></p>\r\n<p>The &lt;big&gt; tag defines bigger text.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;blockquote&gt;",
-        "path": "https://www.w3schools.com/tags/tag_blockquote.asp"
+        "tag_name": "<blockquote>",
+        "path": "https://www.w3schools.com/tags/tag_blockquote.asp",
+        "description": "<p>The &lt;blockquote&gt; tag specifies a section that is quoted from another source.</p>\r\n<p>Browsers usually indent &lt;blockquote&gt; elements.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;body&gt;",
-        "path": "https://www.w3schools.com/tags/tag_body.asp"
+        "tag_name": "<body>",
+        "path": "https://www.w3schools.com/tags/tag_body.asp",
+        "description": "<p>The &lt;body&gt; tag defines the document's body.</p>\r\n<p>The &lt;body&gt; element contains all the contents of an HTML document, such as text, hyperlinks, images, tables, lists, etc.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;br&gt;",
-        "path": "https://www.w3schools.com/tags/tag_br.asp"
+        "tag_name": "<br>",
+        "path": "https://www.w3schools.com/tags/tag_br.asp",
+        "description": "<p>The &lt;br&gt; tag inserts a single line break.</p>\r\n<p>The &lt;br&gt; tag is an empty tag which means that it has no end tag.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;button&gt;",
-        "path": "https://www.w3schools.com/tags/tag_button.asp"
+        "tag_name": "<button>",
+        "path": "https://www.w3schools.com/tags/tag_button.asp",
+        "description": "<p>The &lt;button&gt; tag defines a clickable button.</p>\r\n<p>Inside a &lt;button&gt; element you can put content, like text or images. This is the difference between this element and buttons created with the \r\n&lt;input&gt; element.</p>\r\n<p><b>Tip:</b> Always specify the type attribute for a &lt;button&gt; element. Different browsers use \r\ndifferent default types for the &lt;button&gt; element.</p>\r\n<p><strong>Tip:</strong> Buttons are often styled with CSS: <a target=\"_blank\" href=\"https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_button_css\" class=\"w3-btn btnsmall\" style=\"float:none;vertical-align:top\">Try it &raquo;</a></p>\r\n<hr>"
     },
     {
-        "tag": "&lt;canvas&gt;",
-        "path": "https://www.w3schools.com/tags/tag_canvas.asp"
+        "tag_name": "<canvas>",
+        "path": "https://www.w3schools.com/tags/tag_canvas.asp",
+        "description": "<p>The &lt;canvas&gt; tag is used to draw graphics, on the fly, via scripting (usually JavaScript).</p>\r\n<p>The &lt;canvas&gt; tag is only a container for graphics, you must use a script to actually draw the graphics.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;caption&gt;",
-        "path": "https://www.w3schools.com/tags/tag_caption.asp"
+        "tag_name": "<caption>",
+        "path": "https://www.w3schools.com/tags/tag_caption.asp",
+        "description": "<p>The &lt;caption&gt; tag defines a table caption.</p>\r\n<p>The &lt;caption&gt; tag must be inserted immediately after the &lt;table&gt; tag.</p>\r\n<p><strong>Note:</strong> You can specify only one caption per table.</p>\r\n<p><b>Tip:</b> By default, a table caption will be center-aligned above a \r\ntable. However, the CSS properties <a href=\"https://www.w3schools.com/tags//cssref/pr_text_text-align.asp\">\r\ntext-align</a> and <a href=\"https://www.w3schools.com/tags//cssref/pr_tab_caption-side.asp\">caption-side</a> \r\ncan be used to align and place the caption.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;center&gt;",
-        "path": "https://www.w3schools.com/tags/tag_center.asp"
+        "tag_name": "<center>",
+        "path": "https://www.w3schools.com/tags/tag_center.asp",
+        "description": "<p><span class=\"deprecated\">The &lt;center&gt; tag is not supported in HTML5. Use \r\nCSS instead.</span></p>\r\n<p>The &lt;center&gt; tag is used to center-align text.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;cite&gt;",
-        "path": "https://www.w3schools.com/tags/tag_cite.asp"
+        "tag_name": "<cite>",
+        "path": "https://www.w3schools.com/tags/tag_cite.asp",
+        "description": "<p>The &lt;cite&gt; tag defines the title of a work (e.g. a book, a song, a movie, a TV show, a painting, a sculpture, etc.).</p>\r\n<p><b>Note:</b> A person's name is not the title of a work.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;code&gt;",
-        "path": "https://www.w3schools.com/tags/tag_code.asp"
+        "tag_name": "<code>",
+        "path": "https://www.w3schools.com/tags/tag_code.asp",
+        "description": "<p>The &lt;code&gt; tag is a phrase tag. It defines a piece of computer code. </p>\r\n<p><strong>Tip:</strong> This tag is not deprecated, but\r\nit is possible to achieve richer effect with CSS.</p>\r\n<p>All phrase tags:</p>\r\n<table class=\"w3-table-all notranslate\" id=\"table1\"> \r\n  <tr>\r\n    <th style=\"width:15%\">Tag</th>\r\n    <th>Description</th>\r\n  </tr>  \r\n  <tr>\r\n    <td width=\"20%\"><a href=\"https://www.w3schools.com/tags/tag_em.asp\">&lt;em&gt;</a></td>\r\n    <td width=\"80%\">Renders as emphasized text</td>\r\n  </tr>\r\n  <tr>\r\n    <td><a href=\"https://www.w3schools.com/tags/tag_strong.asp\">&lt;strong&gt;</a></td>\r\n    <td>Defines important text</td>\r\n  </tr>\r\n  <tr>\r\n    <td><a href=\"https://www.w3schools.com/tags/tag_code.asp\">&lt;code&gt;</a></td>\r\n    <td>Defines a piece of computer code</td>\r\n  </tr>\r\n  <tr>\r\n    <td><a href=\"https://www.w3schools.com/tags/tag_samp.asp\">&lt;samp&gt;</a></td>\r\n    <td>Defines sample output from a computer program</td>\r\n  </tr>\r\n  <tr>\r\n    <td><a href=\"https://www.w3schools.com/tags/tag_kbd.asp\">&lt;kbd&gt;</a></td>\r\n    <td>Defines keyboard input</td>\r\n  </tr>\r\n  <tr>\r\n    <td><a href=\"https://www.w3schools.com/tags/tag_var.asp\">&lt;var&gt;</a></td>\r\n    <td>Defines a variable</td>\r\n  </tr>\r\n  </table>\r\n<hr>"
     },
     {
-        "tag": "&lt;col&gt;",
-        "path": "https://www.w3schools.com/tags/tag_col.asp"
+        "tag_name": "<col>",
+        "path": "https://www.w3schools.com/tags/tag_col.asp",
+        "description": "<p>The &lt;col&gt; tag specifies column properties for each column within a \r\n<a href=\"https://www.w3schools.com/tags/tag_colgroup.asp\">&lt;colgroup&gt;</a> element.</p>\r\n<p>The &lt;col&gt; tag is useful for applying styles to entire columns, instead of repeating the styles for each cell, for each row.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;colgroup&gt;",
-        "path": "https://www.w3schools.com/tags/tag_colgroup.asp"
+        "tag_name": "<colgroup>",
+        "path": "https://www.w3schools.com/tags/tag_colgroup.asp",
+        "description": "<p>The &lt;colgroup&gt; tag specifies a group of one or more columns in a table for formatting.</p>\r\n<p>The &lt;colgroup&gt; tag is useful for applying styles to entire columns, instead of repeating the styles for each cell, for each row.</p>\r\n<p><b>Note:</b> The &lt;colgroup&gt; tag must be a child of a &lt;table&gt; element, \r\nafter any &lt;caption&gt; elements and before any &lt;thead&gt;, &lt;tbody&gt;, &lt;tfoot&gt;, and &lt;tr&gt; \r\nelements.</p>\r\n<p><b>Tip:</b> To define different properties to a column within a &lt;colgroup&gt;, \r\nuse the <a href=\"https://www.w3schools.com/tags/tag_col.asp\">&lt;col&gt;</a> tag within the &lt;colgroup&gt; tag.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;data&gt;",
-        "path": "https://www.w3schools.com/tags/tag_data.asp"
+        "tag_name": "<data>",
+        "path": "https://www.w3schools.com/tags/tag_data.asp",
+        "description": "<p>The &lt;data&gt; tag links the given content with a machine-readable \r\ntranslation.</p>\r\n<p>This element provides both a machine-readable value for data processors, and \r\na human-readable value for rendering in a browser.</p>\r\n<p><strong>Tip:</strong> If the content is time- or date-related, the \r\n<a href=\"https://www.w3schools.com/tags/tag_time.asp\">&lt;time&gt;</a> \r\nelement must be used instead.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;datalist&gt;",
-        "path": "https://www.w3schools.com/tags/tag_datalist.asp"
+        "tag_name": "<datalist>",
+        "path": "https://www.w3schools.com/tags/tag_datalist.asp",
+        "description": "<p>The &lt;datalist&gt; tag specifies a list of pre-defined options for an &lt;input&gt; element.</p>\r\n<p>The &lt;datalist&gt; tag is used to provide an &quot;autocomplete&quot; feature on &lt;input&gt; \r\nelements. Users will see a drop-down list of pre-defined options as they input data.</p>\r\n<p>Use the &lt;input&gt; element's list attribute to bind it together with a &lt;datalist&gt; element.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;dd&gt;",
-        "path": "https://www.w3schools.com/tags/tag_dd.asp"
+        "tag_name": "<dd>",
+        "path": "https://www.w3schools.com/tags/tag_dd.asp",
+        "description": "<p>The &lt;dd&gt; tag is used to describe a term/name in a description list.</p>\r\n<p>The &lt;dd&gt; tag is used in conjunction with <a href=\"https://www.w3schools.com/tags/tag_dl.asp\">&lt;dl&gt;</a> \r\n(defines a description list) and <a href=\"https://www.w3schools.com/tags/tag_dt.asp\">&lt;dt&gt;</a> (defines \r\nterms/names).</p>\r\n<p>Inside a &lt;dd&gt; tag you can put paragraphs, line breaks, images, links, lists, etc.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;del&gt;",
-        "path": "https://www.w3schools.com/tags/tag_del.asp"
+        "tag_name": "<del>",
+        "path": "https://www.w3schools.com/tags/tag_del.asp",
+        "description": "<p>The &lt;del&gt; tag defines text that has been deleted from a document.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;details&gt;",
-        "path": "https://www.w3schools.com/tags/tag_details.asp"
+        "tag_name": "<details>",
+        "path": "https://www.w3schools.com/tags/tag_details.asp",
+        "description": "<p>The &lt;details&gt; tag specifies additional details that the user can view or hide on demand.</p>\r\n<p>The &lt;details&gt; tag can be used to create an interactive widget that the user can \r\nopen and close. Any sort of content can be put inside the &lt;details&gt; tag.</p>\r\n<p>The content of a &lt;details&gt; element should not be visible unless the open attribute is set.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;dfn&gt;",
-        "path": "https://www.w3schools.com/tags/tag_dfn.asp"
+        "tag_name": "<dfn>",
+        "path": "https://www.w3schools.com/tags/tag_dfn.asp",
+        "description": "<p>The &lt;dfn&gt; tag represents the defining instance of a term in HTML.</p>\r\n<p>The defining instance is often the first use of a term in a document.</p>\r\n<p>The nearest parent of the &lt;dfn&gt; tag must also contain the definition/explanation for the term \r\ninside &lt;dfn&gt;.</p>\r\n<p>The term inside the &lt;dfn&gt; tag can be any of the following:</p>\r\n<p>1. The content of the &lt;dfn&gt; element (without a title attribute):</p>\r\n<div class=\"w3-example\">\r\n<h3>Example</h3>\r\n<div class=\"w3-code notranslate htmlHigh\">\r\n &lt;p&gt;&lt;dfn&gt;HTML&lt;/dfn&gt; is the standard markup language for creating web pages.&lt;/p&gt;</div>\r\n<a target=\"_blank\" href=\"https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_dfn_1\" class=\"w3-btn w3-margin-bottom\">Try it Yourself &raquo;</a>\r\n</div>\r\n\r\n<p>2. The title attribute of the &lt;dfn&gt; tag:<br></p>\r\n<div class=\"w3-example\">\r\n<h3>Example</h3>\r\n<div class=\"w3-code notranslate htmlHigh\">\r\n &lt;p&gt;&lt;dfn title=&quot;HyperText Markup Language&quot;&gt;HTML&lt;/dfn&gt; is the standard markup language for creating web pages.&lt;/p&gt;</div>\r\n<a target=\"_blank\" href=\"https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_dfn_2\" class=\"w3-btn w3-margin-bottom\">Try it Yourself &raquo;</a>\r\n</div>\r\n\r\n<p>3. The title attribute of an &lt;abbr&gt; tag inside the &lt;dfn&gt; element:</p>\r\n<div class=\"w3-example\">\r\n<h3>Example</h3>\r\n<div class=\"w3-code notranslate htmlHigh\">\r\n &lt;p&gt;&lt;dfn&gt;&lt;abbr title=&quot;HyperText Markup Language&quot;&gt;HTML&lt;/abbr&gt;&lt;/dfn&gt; is the standard markup language for creating web pages.&lt;/p&gt;</div>\r\n<a target=\"_blank\" href=\"https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_dfn_3\" class=\"w3-btn w3-margin-bottom\">Try it Yourself &raquo;</a>\r\n</div>\r\n\r\n<p>You can also add an id attribute to the &lt;dfn&gt; element. Then, whenever a term \r\nis used, it can refer back to the definition using an &lt;a&gt; tag:</p>\r\n<div class=\"w3-example\">\r\n<h3>Example</h3>\r\n<div class=\"w3-code notranslate htmlHigh\">\r\n &lt;p&gt;&lt;dfn id=&quot;html-def&quot;&gt;HTML&lt;/dfn&gt; is the standard markup language for creating web pages.&lt;/p&gt;<br><br>&lt;p&gt;This is some text...&lt;/p&gt;<br>&lt;p&gt;This is some text...&lt;/p&gt;<br>&lt;p&gt;Learn &lt;a href=&quot;#html-def&quot;&gt;HTML&lt;/a&gt; now.&lt;/p&gt;</div>\r\n<a target=\"_blank\" href=\"https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_dfn_4\" class=\"w3-btn w3-margin-bottom\">Try it Yourself &raquo;</a>\r\n</div>\r\n<hr>\r\n<div id=\"midcontentadcontainer\" style=\"overflow:auto;text-align:center\">\r\n<!-- MidContent -->\r\n\r\n  <!--<pre>mid_content, all: [300,250][336,280][728,90][970,250][970,90][320,50][468,60]</pre>-->\r\n  <div id=\"snhb-mid_content-0\"></div>\r\n    \r\n</div>\r\n<hr>"
     },
     {
-        "tag": "&lt;dialog&gt;",
-        "path": "https://www.w3schools.com/tags/tag_dialog.asp"
+        "tag_name": "<dialog>",
+        "path": "https://www.w3schools.com/tags/tag_dialog.asp",
+        "description": "<p>The &lt;dialog&gt; tag defines a dialog box or window.</p>\r\n<p>The &lt;dialog&gt; element makes it easy to create popup dialogs and modals on a web page.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;dir&gt;",
-        "path": "https://www.w3schools.com/tags/tag_dir.asp"
+        "tag_name": "<dir>",
+        "path": "https://www.w3schools.com/tags/tag_dir.asp",
+        "description": "<p><span class=\"deprecated\">The &lt;dir&gt; tag is not supported in HTML5. Use <a href=\"https://www.w3schools.com/tags/tag_ul.asp\">&lt;ul&gt;</a> or CSS instead.</span></p>\r\n<p>The &lt;dir&gt; tag is used to list directory titles.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;div&gt;",
-        "path": "https://www.w3schools.com/tags/tag_div.asp"
+        "tag_name": "<div>",
+        "path": "https://www.w3schools.com/tags/tag_div.asp",
+        "description": "<p>The &lt;div&gt; tag defines a division or a section in an HTML document.</p>\r\n<p>The &lt;div&gt; element is often used as a container for other HTML elements to style them with CSS or to perform certain tasks with JavaScript.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;dl&gt;",
-        "path": "https://www.w3schools.com/tags/tag_dl.asp"
+        "tag_name": "<dl>",
+        "path": "https://www.w3schools.com/tags/tag_dl.asp",
+        "description": "<p>The &lt;dl&gt; tag defines a description list.</p>\r\n<p>The &lt;dl&gt; tag is used in conjunction with <a href=\"https://www.w3schools.com/tags/tag_dt.asp\">&lt;dt&gt;</a> (defines \r\nterms/names) and \r\n<a href=\"https://www.w3schools.com/tags/tag_dd.asp\">&lt;dd&gt;</a> (describes each term/name).</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;dt&gt;",
-        "path": "https://www.w3schools.com/tags/tag_dt.asp"
+        "tag_name": "<dt>",
+        "path": "https://www.w3schools.com/tags/tag_dt.asp",
+        "description": "<p>The &lt;dt&gt; tag defines a term/name in a description list.</p>\r\n<p>The &lt;dt&gt; tag is used in conjunction with <a href=\"https://www.w3schools.com/tags/tag_dl.asp\">&lt;dl&gt;</a> (defines \r\na description list) and \r\n<a href=\"https://www.w3schools.com/tags/tag_dd.asp\">&lt;dd&gt;</a> (describes each term/name).</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;em&gt;",
-        "path": "https://www.w3schools.com/tags/tag_em.asp"
+        "tag_name": "<em>",
+        "path": "https://www.w3schools.com/tags/tag_em.asp",
+        "description": "<p>The &lt;em&gt; tag is a phrase tag. It renders as emphasized text. </p>\r\n<p><strong>Tip:</strong> This tag is not deprecated, but\r\nit is possible to achieve richer effect with CSS.</p>\r\n<p>All phrase tags:</p>\r\n\r\n<table class=\"w3-table-all notranslate\" id=\"table1\"> \r\n  <tr>\r\n    <th style=\"width:15%\">Tag</th>\r\n    <th>Description</th>\r\n  </tr>  \r\n  <tr>\r\n    <td width=\"20%\"><a href=\"https://www.w3schools.com/tags/tag_em.asp\">&lt;em&gt;</a></td>\r\n    <td width=\"80%\">Renders as emphasized text</td>\r\n  </tr>\r\n  <tr>\r\n    <td><a href=\"https://www.w3schools.com/tags/tag_strong.asp\">&lt;strong&gt;</a></td>\r\n    <td>Defines important text</td>\r\n  </tr>\r\n  <tr>\r\n    <td><a href=\"https://www.w3schools.com/tags/tag_code.asp\">&lt;code&gt;</a></td>\r\n    <td>Defines a piece of computer code</td>\r\n  </tr>\r\n  <tr>\r\n    <td><a href=\"https://www.w3schools.com/tags/tag_samp.asp\">&lt;samp&gt;</a></td>\r\n    <td>Defines sample output from a computer program</td>\r\n  </tr>\r\n  <tr>\r\n    <td><a href=\"https://www.w3schools.com/tags/tag_kbd.asp\">&lt;kbd&gt;</a></td>\r\n    <td>Defines keyboard input</td>\r\n  </tr>\r\n  <tr>\r\n    <td><a href=\"https://www.w3schools.com/tags/tag_var.asp\">&lt;var&gt;</a></td>\r\n    <td>Defines a variable</td>\r\n  </tr>\r\n  </table>\r\n<hr>"
     },
     {
-        "tag": "&lt;embed&gt;",
-        "path": "https://www.w3schools.com/tags/tag_embed.asp"
+        "tag_name": "<embed>",
+        "path": "https://www.w3schools.com/tags/tag_embed.asp",
+        "description": "<p>The &lt;embed&gt; tag defines a container for an external application or interactive content (a plug-in).</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;fieldset&gt;",
-        "path": "https://www.w3schools.com/tags/tag_fieldset.asp"
+        "tag_name": "<fieldset>",
+        "path": "https://www.w3schools.com/tags/tag_fieldset.asp",
+        "description": "<p>The &lt;fieldset&gt; tag is used to group related elements in a form.</p>\r\n<p>The &lt;fieldset&gt; tag draws a box around the related elements.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;figcaption&gt;",
-        "path": "https://www.w3schools.com/tags/tag_figcaption.asp"
+        "tag_name": "<figcaption>",
+        "path": "https://www.w3schools.com/tags/tag_figcaption.asp",
+        "description": "<p>The &lt;figcaption&gt; tag defines a caption for a <a href=\"https://www.w3schools.com/tags/tag_figure.asp\">&lt;figure&gt;</a> element.</p>\r\n<p>The &lt;figcaption&gt; element can be placed as the first or last child of the &lt;figure&gt; element.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;figure&gt;",
-        "path": "https://www.w3schools.com/tags/tag_figure.asp"
+        "tag_name": "<figure>",
+        "path": "https://www.w3schools.com/tags/tag_figure.asp",
+        "description": "<p>The &lt;figure&gt; tag specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.</p>\r\n<p>While the content of the &lt;figure&gt; element is related to the main flow,\r\nits position is independent of the main flow, and if removed it should not affect the flow of the document.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;font&gt;",
-        "path": "https://www.w3schools.com/tags/tag_font.asp"
+        "tag_name": "<font>",
+        "path": "https://www.w3schools.com/tags/tag_font.asp",
+        "description": "<p><span class=\"deprecated\">The &lt;font&gt; tag is not supported in HTML5. Use CSS instead.</span></p>\r\n<p>The &lt;font&gt; tag specifies the font face, font size, and color of text.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;footer&gt;",
-        "path": "https://www.w3schools.com/tags/tag_footer.asp"
+        "tag_name": "<footer>",
+        "path": "https://www.w3schools.com/tags/tag_footer.asp",
+        "description": "<p>The &lt;footer&gt; tag defines a footer for a document or section.</p>\r\n<p>A &lt;footer&gt; element should contain information about its containing element.</p>\r\n<p>A &lt;footer&gt; element typically contains:</p>\r\n<ul>\r\n  <li>authorship information</li>\r\n  <li>copyright \r\ninformation</li>\r\n  <li>contact information</li>\r\n  <li>sitemap</li>\r\n  <li>back to top links</li>\r\n  <li>related documents</li>\r\n</ul>\r\n<p>You can have several &lt;footer&gt; elements in one document.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;form&gt;",
-        "path": "https://www.w3schools.com/tags/tag_form.asp"
+        "tag_name": "<form>",
+        "path": "https://www.w3schools.com/tags/tag_form.asp",
+        "description": "<p>The &lt;form&gt; tag is used to create an HTML form for user input.</p>\r\n<p>The &lt;form&gt; element can contain one or more of the following form elements:</p>\r\n<ul>\r\n<li><a href=\"https://www.w3schools.com/tags/tag_input.asp\">&lt;input&gt;</a></li>\r\n<li><a href=\"https://www.w3schools.com/tags/tag_textarea.asp\">&lt;textarea&gt;</a></li>\r\n<li><a href=\"https://www.w3schools.com/tags/tag_button.asp\">&lt;button&gt;</a></li>\r\n<li><a href=\"https://www.w3schools.com/tags/tag_select.asp\">&lt;select&gt;</a></li>\r\n<li><a href=\"https://www.w3schools.com/tags/tag_option.asp\">&lt;option&gt;</a></li>\r\n<li><a href=\"https://www.w3schools.com/tags/tag_optgroup.asp\">&lt;optgroup&gt;</a></li>\r\n<li><a href=\"https://www.w3schools.com/tags/tag_fieldset.asp\">&lt;fieldset&gt;</a></li>\r\n<li><a href=\"https://www.w3schools.com/tags/tag_label.asp\">&lt;label&gt;</a></li>\r\n<li><a href=\"https://www.w3schools.com/tags/tag_output.asp\">&lt;output&gt;</a></li>\r\n</ul>\r\n<hr>"
     },
     {
-        "tag": "&lt;frame&gt;",
-        "path": "https://www.w3schools.com/tags/tag_frame.asp"
+        "tag_name": "<frame>",
+        "path": "https://www.w3schools.com/tags/tag_frame.asp",
+        "description": "<p><span class=\"deprecated\">The &lt;frame&gt; tag is not supported in HTML5.</span></p>\r\n<p>The &lt;frame&gt; tag defines one particular window (frame) within a &lt;frameset&gt;.</p>\r\n<p>Each &lt;frame&gt; in a &lt;frameset&gt; can have different attributes, such as border, scrolling, the ability to resize, etc.</p>\r\n<p><b>Note:</b> If you want to validate a page containing frames, be sure the \r\n<a href=\"https://www.w3schools.com/tags/tag_doctype.asp\">&lt;!DOCTYPE&gt;</a> is set to either &quot;HTML Frameset DTD&quot; \r\nor &quot;XHTML Frameset DTD&quot;.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;frameset&gt;",
-        "path": "https://www.w3schools.com/tags/tag_frameset.asp"
+        "tag_name": "<frameset>",
+        "path": "https://www.w3schools.com/tags/tag_frameset.asp",
+        "description": "<p><span class=\"deprecated\">The &lt;frameset&gt; tag is not supported in HTML5.</span></p>\r\n<p>The &lt;frameset&gt; tag defines a frameset.</p>\r\n<p>The &lt;frameset&gt; element holds one or more <a href=\"https://www.w3schools.com/tags/tag_frame.asp\">&lt;frame&gt;</a> elements. Each \r\n&lt;frame&gt; element can hold a separate document.</p>\r\n<p>The &lt;frameset&gt; element specifies HOW MANY columns or rows there will be in the \r\nframeset, and HOW MUCH percentage/pixels of space will occupy each of them.</p>\r\n<p><b>Note:</b> If you want to validate a page containing frames, be sure the \r\n<a href=\"https://www.w3schools.com/tags/tag_doctype.asp\">&lt;!DOCTYPE&gt;</a> is set to either &quot;HTML Frameset DTD&quot; \r\nor &quot;XHTML Frameset DTD&quot;.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;h1&gt; - &lt;h6&gt;",
-        "path": "https://www.w3schools.com/tags/tag_hn.asp"
+        "tag_name": "<h1> - &lt;h6&gt;",
+        "path": "https://www.w3schools.com/tags/tag_hn.asp",
+        "description": "<p>The &lt;h1&gt; to &lt;h6&gt; tags are used to define HTML headings.</p>\r\n<p>&lt;h1&gt; defines the most important heading. &lt;h6&gt; defines the least important heading.</p> \r\n<hr>"
     },
     {
-        "tag": "&lt;head&gt;",
-        "path": "https://www.w3schools.com/tags/tag_head.asp"
+        "tag_name": "<head>",
+        "path": "https://www.w3schools.com/tags/tag_head.asp",
+        "description": "<p>The &lt;head&gt; element is a container for all the head elements.</p>\r\n<p>The &lt;head&gt; element can include a title for the document, scripts, styles, meta information, and more.</p>\r\n<p>The following elements can go inside the &lt;head&gt; element:</p>\r\n<ul>\r\n<li><a href=\"https://www.w3schools.com/tags/tag_title.asp\">&lt;title&gt;</a> (this element is required in an \r\nHTML document)</li>\r\n<li><a href=\"https://www.w3schools.com/tags/tag_style.asp\">&lt;style&gt;</a></li>\r\n<li><a href=\"https://www.w3schools.com/tags/tag_base.asp\">&lt;base&gt;</a></li>\r\n<li><a href=\"https://www.w3schools.com/tags/tag_link.asp\">&lt;link&gt;</a></li>\r\n<li><a href=\"https://www.w3schools.com/tags/tag_meta.asp\">&lt;meta&gt;</a></li>\r\n<li><a href=\"https://www.w3schools.com/tags/tag_script.asp\">&lt;script&gt;</a></li>\r\n<li><a href=\"https://www.w3schools.com/tags/tag_noscript.asp\">&lt;noscript&gt;</a></li>\r\n</ul>\r\n<hr>"
     },
     {
-        "tag": "&lt;header&gt;",
-        "path": "https://www.w3schools.com/tags/tag_header.asp"
+        "tag_name": "<header>",
+        "path": "https://www.w3schools.com/tags/tag_header.asp",
+        "description": "<p>The &lt;header&gt; element represents a container for introductory content or \r\na set of navigational links.</p>\r\n<p>A &lt;header&gt; element typically contains:</p>\r\n<ul>\r\n  <li>one or more heading elements (&lt;h1&gt; - &lt;h6&gt;)</li>\r\n  <li>logo or icon</li>\r\n  <li>authorship information</li>\r\n</ul>\r\n<p>You can have several &lt;header&gt; elements in one document.</p>\r\n<p><b>Note:</b> A &lt;header&gt; tag cannot be placed within a &lt;footer&gt;, &lt;address&gt; or another &lt;header&gt; element.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;hr&gt;",
-        "path": "https://www.w3schools.com/tags/tag_hr.asp"
+        "tag_name": "<hr>",
+        "path": "https://www.w3schools.com/tags/tag_hr.asp",
+        "description": "<p>The &lt;hr&gt; tag defines a thematic break in an HTML page (e.g. a shift of topic).</p>\r\n<p>The &lt;hr&gt; element is used to separate content (or define a change) in an HTML page.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;html&gt;",
-        "path": "https://www.w3schools.com/tags/tag_html.asp"
+        "tag_name": "<html>",
+        "path": "https://www.w3schools.com/tags/tag_html.asp",
+        "description": "<p>The &lt;html&gt; tag tells the browser that this is an HTML document.</p>\r\n<p>The &lt;html&gt; tag represents the root of an HTML document.</p>\r\n<p>The &lt;html&gt; tag is the container for all other HTML elements (except for the\r\n<a href=\"https://www.w3schools.com/tags/tag_doctype.asp\">&lt;!DOCTYPE&gt;</a> tag).</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;i&gt;",
-        "path": "https://www.w3schools.com/tags/tag_i.asp"
+        "tag_name": "<i>",
+        "path": "https://www.w3schools.com/tags/tag_i.asp",
+        "description": "<p>The &lt;i&gt; tag defines a part of text in an alternate voice or mood. The content of the &lt;i&gt; \r\ntag is usually displayed in italic.</p>\r\n<p>The &lt;i&gt; tag can be used to indicate a technical term, a phrase from another \r\nlanguage, a thought, or a ship name, etc.</p>\r\n<p>Use the &lt;i&gt; element only when there is not a more appropriate semantic element, such as:</p>\r\n<ul>\r\n  <li><a href=\"https://www.w3schools.com/tags/tag_em.asp\">&lt;em&gt;</a> (emphasized text)</li>\r\n  <li><a href=\"https://www.w3schools.com/tags/tag_strong.asp\">&lt;strong&gt;</a> (important text)</li>\r\n  <li><a href=\"https://www.w3schools.com/tags/tag_mark.asp\">&lt;mark&gt;</a> (marked/highlighted text)</li>\r\n  <li><a href=\"https://www.w3schools.com/tags/tag_cite.asp\">&lt;cite&gt;</a> (the title of a work)</li>\r\n  <li><a href=\"https://www.w3schools.com/tags/tag_dfn.asp\">&lt;dfn&gt;</a> (a definition term)</li>\r\n</ul>\r\n<hr>"
     },
     {
-        "tag": "&lt;iframe&gt;",
-        "path": "https://www.w3schools.com/tags/tag_iframe.asp"
+        "tag_name": "<iframe>",
+        "path": "https://www.w3schools.com/tags/tag_iframe.asp",
+        "description": "<p>The &lt;iframe&gt; tag specifies an inline frame.</p>\r\n<p>An inline frame is used to embed another document within the current HTML document.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;img&gt;",
-        "path": "https://www.w3schools.com/tags/tag_img.asp"
+        "tag_name": "<img>",
+        "path": "https://www.w3schools.com/tags/tag_img.asp",
+        "description": "<p>The &lt;img&gt; tag defines an image in an HTML page.</p>\r\n<p>The &lt;img&gt; tag has two required attributes: src and alt.</p>\r\n<p><b>Note:</b> Images are not technically inserted into an HTML page, images \r\nare linked to HTML pages. The &lt;img&gt; tag creates a holding space for the referenced image.</p>\r\n<p><b>Tip:</b> To link an image to another document, simply nest the &lt;img&gt; tag inside &lt;a&gt; tags.\r\n<a target=\"_blank\" href=\"https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_image_link\" class=\"w3-btn btnsmall\" style=\"float:none;vertical-align:top\">Try it &raquo;</a>\r\n<!--<a target=\"_blank\" class=\"tryiticon\" href=\"https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_image_link\"><span>Try it Yourself</span> &raquo;</a></p>-->\r\n<hr>"
     },
     {
-        "tag": "&lt;input&gt;",
-        "path": "https://www.w3schools.com/tags/tag_input.asp"
+        "tag_name": "<input>",
+        "path": "https://www.w3schools.com/tags/tag_input.asp",
+        "description": "<p>The &lt;input&gt; tag specifies an input field where the user can enter data.</p>\r\n<p>&lt;input&gt; elements are used within a &lt;form&gt; element to declare input controls that allow users to input data.</p>\r\n<p>An input field can vary in many ways, depending on the type attribute.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;ins&gt;",
-        "path": "https://www.w3schools.com/tags/tag_ins.asp"
+        "tag_name": "<ins>",
+        "path": "https://www.w3schools.com/tags/tag_ins.asp",
+        "description": "<p>The &lt;ins&gt; tag defines a text that has been inserted into a document.</p>\r\n<p><b>Tip:</b> Also look at the <a href=\"https://www.w3schools.com/tags/tag_del.asp\">&lt;del&gt;</a> tag to markup deleted text.</p>\r\n<p>Browsers will normally strike a line through deleted text and underline inserted text.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;kbd&gt;",
-        "path": "https://www.w3schools.com/tags/tag_kbd.asp"
+        "tag_name": "<kbd>",
+        "path": "https://www.w3schools.com/tags/tag_kbd.asp",
+        "description": "<p>The &lt;kbd&gt; tag is a phrase tag. It defines keyboard input.</p>\r\n<p><strong>Tip:</strong> This tag is not deprecated, but it is possible to achieve richer effect with CSS.</p>\r\n<p>All phrase tags:</p>\r\n<table class=\"w3-table-all notranslate\" id=\"table1\"> \r\n  <tr>\r\n    <th style=\"width:15%\">Tag</th>\r\n    <th>Description</th>\r\n  </tr>  \r\n  <tr>\r\n    <td width=\"20%\"><a href=\"https://www.w3schools.com/tags/tag_em.asp\">&lt;em&gt;</a></td>\r\n    <td width=\"80%\">Renders as emphasized text</td>\r\n  </tr>\r\n  <tr>\r\n    <td><a href=\"https://www.w3schools.com/tags/tag_strong.asp\">&lt;strong&gt;</a></td>\r\n    <td>Defines important text</td>\r\n  </tr>\r\n  <tr>\r\n    <td><a href=\"https://www.w3schools.com/tags/tag_code.asp\">&lt;code&gt;</a></td>\r\n    <td>Defines a piece of computer code</td>\r\n  </tr>\r\n  <tr>\r\n    <td><a href=\"https://www.w3schools.com/tags/tag_samp.asp\">&lt;samp&gt;</a></td>\r\n    <td>Defines sample output from a computer program</td>\r\n  </tr>\r\n  <tr>\r\n    <td><a href=\"https://www.w3schools.com/tags/tag_kbd.asp\">&lt;kbd&gt;</a></td>\r\n    <td>Defines keyboard input</td>\r\n  </tr>\r\n  <tr>\r\n    <td><a href=\"https://www.w3schools.com/tags/tag_var.asp\">&lt;var&gt;</a></td>\r\n    <td>Defines a variable</td>\r\n  </tr>\r\n  </table>\r\n<hr>"
     },
     {
-        "tag": "&lt;label&gt;",
-        "path": "https://www.w3schools.com/tags/tag_label.asp"
+        "tag_name": "<label>",
+        "path": "https://www.w3schools.com/tags/tag_label.asp",
+        "description": "<p>The &lt;label&gt; tag defines a label for a &lt;button&gt;, &lt;input&gt;, &lt;meter&gt;, \r\n&lt;output&gt;, &lt;progress&gt;, &lt;select&gt;, or &lt;textarea&gt; element.</p>\r\n<p>The &lt;label&gt; element does not render as anything special for the user. \r\nHowever, it provides a usability improvement for mouse users, because if the \r\nuser clicks on the text within the &lt;label&gt; element, it toggles the control.</p>\r\n<p>The for attribute of the &lt;label&gt; tag should be equal to the id attribute of \r\nthe related element to bind them together.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;legend&gt;",
-        "path": "https://www.w3schools.com/tags/tag_legend.asp"
+        "tag_name": "<legend>",
+        "path": "https://www.w3schools.com/tags/tag_legend.asp",
+        "description": "<p>The &lt;legend&gt; tag defines a caption for the <a href=\"https://www.w3schools.com/tags/tag_fieldset.asp\">&lt;fieldset&gt;</a> element.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;li&gt;",
-        "path": "https://www.w3schools.com/tags/tag_li.asp"
+        "tag_name": "<li>",
+        "path": "https://www.w3schools.com/tags/tag_li.asp",
+        "description": "<p>The &lt;li&gt; tag defines a list item.</p>\r\n<p>The &lt;li&gt; tag is used in ordered lists(<a href=\"https://www.w3schools.com/tags/tag_ol.asp\">&lt;ol&gt;</a>), unordered lists (<a href=\"https://www.w3schools.com/tags/tag_ul.asp\">&lt;ul&gt;</a>), and in\r\nmenu lists (<a href=\"https://www.w3schools.com/tags/tag_menu.asp\">&lt;menu&gt;</a>).</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;link&gt;",
-        "path": "https://www.w3schools.com/tags/tag_link.asp"
+        "tag_name": "<link>",
+        "path": "https://www.w3schools.com/tags/tag_link.asp",
+        "description": "<p>The &lt;link&gt; tag defines a link between a document and an external \r\nresource.</p>\r\n<p>The &lt;link&gt; tag is used to link to external style sheets.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;main&gt;",
-        "path": "https://www.w3schools.com/tags/tag_main.asp"
+        "tag_name": "<main>",
+        "path": "https://www.w3schools.com/tags/tag_main.asp",
+        "description": "<p>The &lt;main&gt; tag specifies the main content of a document.</p>\r\n<p>The content inside the &lt;main&gt; element should be unique to the document. \r\nIt should not contain any content that is repeated across documents such as \r\nsidebars, navigation links, copyright information, site logos, and search forms.</p>\r\n<p><strong>Note:</strong> There must not be more than one &lt;main&gt; element in a \r\ndocument. The &lt;main&gt; element must NOT be a descendant of an &lt;article&gt;, &lt;aside&gt;, &lt;footer&gt;, \r\n&lt;header&gt;, or &lt;nav&gt; element.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;map&gt;",
-        "path": "https://www.w3schools.com/tags/tag_map.asp"
+        "tag_name": "<map>",
+        "path": "https://www.w3schools.com/tags/tag_map.asp",
+        "description": "<p>The &lt;map&gt; tag is used to define a client-side image-map. An image-map is an image with clickable areas.</p>\r\n<p>The required name attribute of the &lt;map&gt; element is associated \r\nwith the &lt;img&gt;'s usemap attribute and creates a relationship between the image and the map.</p>\r\n<p>The &lt;map&gt; element contains a number of <a href=\"https://www.w3schools.com/tags/tag_area.asp\">&lt;area&gt;</a> elements, that defines the clickable areas in the image map.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;mark&gt;",
-        "path": "https://www.w3schools.com/tags/tag_mark.asp"
+        "tag_name": "<mark>",
+        "path": "https://www.w3schools.com/tags/tag_mark.asp",
+        "description": "<p>The &lt;mark&gt; tag defines marked text.</p>\r\n<p>Use the &lt;mark&gt; tag if you want to highlight parts of your text.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;meta&gt;",
-        "path": "https://www.w3schools.com/tags/tag_meta.asp"
+        "tag_name": "<meta>",
+        "path": "https://www.w3schools.com/tags/tag_meta.asp",
+        "description": "<p>Metadata is data (information) about data.</p>\r\n<p>The &lt;meta&gt; tag provides metadata about the HTML document. Metadata will not \r\nbe displayed on the page, but will be machine parsable.</p>\r\n<p>Meta elements are typically used to specify page description, keywords, \r\nauthor of the document, last modified, and other metadata.</p>\r\n<p>The metadata can be used by browsers (how to display content or reload page), \r\nsearch engines (keywords), or other web services.</p>\r\n<p>HTML5 introduced a method to let web designers take control over the viewport \r\n(the user's visible area of a web page), through the &lt;meta&gt; tag (See &quot;Setting \r\nThe Viewport&quot; example below).</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;meter&gt;",
-        "path": "https://www.w3schools.com/tags/tag_meter.asp"
+        "tag_name": "<meter>",
+        "path": "https://www.w3schools.com/tags/tag_meter.asp",
+        "description": "<p>The &lt;meter&gt; tag defines a scalar measurement within a known range, or a fractional value. This is also known as a gauge.</p>\r\n<p>Examples: Disk usage, the relevance of a query result, etc.</p>\r\n<p><b>Note:</b> The &lt;meter&gt; tag should not be used to indicate progress (as in a \r\nprogress bar). For progress bars, use the <a href=\"https://www.w3schools.com/tags/tag_progress.asp\">&lt;progress&gt;</a> tag.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;nav&gt;",
-        "path": "https://www.w3schools.com/tags/tag_nav.asp"
+        "tag_name": "<nav>",
+        "path": "https://www.w3schools.com/tags/tag_nav.asp",
+        "description": "<p>The &lt;nav&gt; tag defines a set of navigation links.</p>\r\n<p>Notice that NOT all links of a document should be inside a &lt;nav&gt; element. The &lt;nav&gt; element is \r\nintended only for major block of <strong>navigation links</strong>.</p>\r\n<p>Browsers, such as screen readers for disabled users, can use this element to \r\ndetermine whether to omit the initial rendering of this content.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;noframes&gt;",
-        "path": "https://www.w3schools.com/tags/tag_noframes.asp"
+        "tag_name": "<noframes>",
+        "path": "https://www.w3schools.com/tags/tag_noframes.asp",
+        "description": "<p><span class=\"deprecated\">The &lt;noframes&gt; tag is not supported in HTML5.</span></p>\r\n<p>The &lt;noframes&gt; tag is a fallback tag for browsers that do not support frames. \r\nIt can contain all the HTML elements that you can find inside the \r\n&lt;body&gt; element of a normal HTML page.</p>\r\n<p>The &lt;noframes&gt; element can be used to link to a non-frameset version of the web site or to display a message to users that frames are required.</p>\r\n<p>The &lt;noframes&gt; element goes inside the &lt;frameset&gt; element.</p>\r\n<p><b>Note:</b> If you want to validate a page containing frames, be sure the \r\n<a href=\"https://www.w3schools.com/tags/tag_doctype.asp\">&lt;!DOCTYPE&gt;</a> is set to either &quot;HTML Frameset DTD&quot; \r\nor &quot;XHTML Frameset DTD&quot;.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;noscript&gt;",
-        "path": "https://www.w3schools.com/tags/tag_noscript.asp"
+        "tag_name": "<noscript>",
+        "path": "https://www.w3schools.com/tags/tag_noscript.asp",
+        "description": "<p>The &lt;noscript&gt; tag defines an alternate content for users that have disabled scripts in their browser or have a browser that doesn't support script.</p>\r\n<p>The &lt;noscript&gt; element can be used in both &lt;head&gt; and &lt;body&gt;.</p>\r\n<p>When used inside the &lt;head&gt; element: &lt;noscript&gt; must contain only &lt;link&gt;, \r\n&lt;style&gt;, and &lt;meta&gt; elements.</p>\r\n<p>The content inside the &lt;noscript&gt; element will be displayed if scripts are not supported, or are disabled in the user's browser.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;object&gt;",
-        "path": "https://www.w3schools.com/tags/tag_object.asp"
+        "tag_name": "<object>",
+        "path": "https://www.w3schools.com/tags/tag_object.asp",
+        "description": "<p>The &lt;object&gt; tag defines an embedded object within an HTML document. Use this \r\nelement to embed multimedia (like audio, video, Java applets, ActiveX, PDF, and \r\nFlash) in your web pages.</p>\r\n<p>You can also use the &lt;object&gt; tag to embed another webpage into your HTML \r\ndocument.</p>\r\n<p>You can use the <a href=\"https://www.w3schools.com/tags/tag_param.asp\">&lt;param&gt;</a> tag to pass parameters to \r\nplugins that have been embedded with the &lt;object&gt; tag.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;ol&gt;",
-        "path": "https://www.w3schools.com/tags/tag_ol.asp"
+        "tag_name": "<ol>",
+        "path": "https://www.w3schools.com/tags/tag_ol.asp",
+        "description": "<p>The &lt;ol&gt; tag defines an ordered list. An ordered list can be numerical or alphabetical.</p>\r\n<p>Use the <a href=\"https://www.w3schools.com/tags/tag_li.asp\">&lt;li&gt;</a> tag to define list items.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;optgroup&gt;",
-        "path": "https://www.w3schools.com/tags/tag_optgroup.asp"
+        "tag_name": "<optgroup>",
+        "path": "https://www.w3schools.com/tags/tag_optgroup.asp",
+        "description": "<p>The &lt;optgroup&gt; is used to group related options in a drop-down list.</p>\r\n<p>If you have a long list of options, groups of related options are easier to handle for a user.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;option&gt;",
-        "path": "https://www.w3schools.com/tags/tag_option.asp"
+        "tag_name": "<option>",
+        "path": "https://www.w3schools.com/tags/tag_option.asp",
+        "description": "<p>The &lt;option&gt; tag defines an option in a select list.</p>\r\n<p>&lt;option&gt; elements go inside a <a href=\"https://www.w3schools.com/tags/tag_select.asp\">&lt;select&gt;</a> \r\nor <a href=\"https://www.w3schools.com/tags/tag_datalist.asp\">&lt;datalist&gt;</a> element.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;output&gt;",
-        "path": "https://www.w3schools.com/tags/tag_output.asp"
+        "tag_name": "<output>",
+        "path": "https://www.w3schools.com/tags/tag_output.asp",
+        "description": "<p>The &lt;output&gt; tag represents the result of a calculation (like one performed by a script).</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;p&gt;",
-        "path": "https://www.w3schools.com/tags/tag_p.asp"
+        "tag_name": "<p>",
+        "path": "https://www.w3schools.com/tags/tag_p.asp",
+        "description": "<p>The &lt;p&gt; tag defines a paragraph.</p>\r\n<p>Browsers automatically add some space (margin) before and after each &lt;p&gt; \r\nelement. The margins can be modified with CSS (with the margin properties).</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;param&gt;",
-        "path": "https://www.w3schools.com/tags/tag_param.asp"
+        "tag_name": "<param>",
+        "path": "https://www.w3schools.com/tags/tag_param.asp",
+        "description": "<p>The &lt;param&gt; tag is used to define parameters for plugins embedded with an\r\n<a href=\"https://www.w3schools.com/tags/tag_object.asp\">&lt;object&gt;</a> element.</p>\r\n<p><b>Tip:</b> HTML 5 also includes two new elements for playing audio or video: \r\nThe <a href=\"https://www.w3schools.com/tags/tag_audio.asp\">&lt;audio&gt;</a> and <a href=\"https://www.w3schools.com/tags/tag_video.asp\">&lt;video&gt;</a> \r\ntags. </p>\r\n<hr>"
     },
     {
-        "tag": "&lt;picture&gt;",
-        "path": "https://www.w3schools.com/tags/tag_picture.asp"
+        "tag_name": "<picture>",
+        "path": "https://www.w3schools.com/tags/tag_picture.asp",
+        "description": "<p>The &lt;picture&gt; tag gives web developers more flexibility in specifying \r\nimage resources.</p>\r\n<p>The most common use of the &lt;picture&gt; element will be for art direction in \r\nresponsive designs. Instead of having one image that is scaled up or down based \r\non the viewport width, multiple images can be designed to more nicely fill the \r\nbrowser viewport.</p>\r\n<p>The &lt;picture&gt; element holds two different tags: one or more \r\n<a href=\"https://www.w3schools.com/tags/tag_source.asp\">&lt;source&gt;</a> tags and \r\none <a href=\"https://www.w3schools.com/tags/tag_img.asp\">&lt;img&gt;</a> tag.</p>\r\n<p>The &lt;source&gt; element has the following attributes:</p>\r\n<ul>\r\n  <li>srcset (required) - defines the URL of the image to show</li>\r\n  <li>media - accepts any valid media query that would normally be defined in a \r\n  CSS </li>\r\n  <li>sizes - defines a single width descriptor, a single media query with width \r\n  descriptor, or a comma-delimited list of media queries with a width descriptor</li>\r\n  <li>type - defines the MIME type</li>\r\n</ul>\r\n<p>The browser will use the attribute values to load the most appropriate image. \r\nThe browser will use the first &lt;source&gt; element with a matching hint and ignore \r\nany following &lt;source&gt; tags.</p>\r\n<p>The &lt;img&gt; element is required as the last child tag of the &lt;picture&gt; \r\ndeclaration block. The &lt;img&gt; element is used to provide backward compatibility for browsers that do \r\nnot support the &lt;picture&gt; element, or if none of the &lt;source&gt; tags matched.</p>\r\n<p>The &lt;picture&gt; element works similar to the &lt;video&gt; and &lt;audio&gt; elements. You \r\nset up different sources, and the first source that fits the preferences is the \r\none being used.</p>\r\n<hr>\r\n<div id=\"midcontentadcontainer\" style=\"overflow:auto;text-align:center\">\r\n<!-- MidContent -->\r\n\r\n  <!--<pre>mid_content, all: [300,250][336,280][728,90][970,250][970,90][320,50][468,60]</pre>-->\r\n  <div id=\"snhb-mid_content-0\"></div>\r\n    \r\n</div>\r\n<hr>"
     },
     {
-        "tag": "&lt;pre&gt;",
-        "path": "https://www.w3schools.com/tags/tag_pre.asp"
+        "tag_name": "<pre>",
+        "path": "https://www.w3schools.com/tags/tag_pre.asp",
+        "description": "<p>The &lt;pre&gt; tag defines preformatted text.</p>\r\n<p>Text in a &lt;pre&gt; element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;progress&gt;",
-        "path": "https://www.w3schools.com/tags/tag_progress.asp"
+        "tag_name": "<progress>",
+        "path": "https://www.w3schools.com/tags/tag_progress.asp",
+        "description": "<p>The &lt;progress&gt; tag represents the progress of a task. </p>\r\n<hr>"
     },
     {
-        "tag": "&lt;q&gt;",
-        "path": "https://www.w3schools.com/tags/tag_q.asp"
+        "tag_name": "<q>",
+        "path": "https://www.w3schools.com/tags/tag_q.asp",
+        "description": "<p>The &lt;q&gt; tag defines a short quotation.</p>\r\n<p>Browsers normally insert quotation marks around the quotation.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;rp&gt;",
-        "path": "https://www.w3schools.com/tags/tag_rp.asp"
+        "tag_name": "<rp>",
+        "path": "https://www.w3schools.com/tags/tag_rp.asp",
+        "description": "<p>The &lt;rp&gt; tag can be used to provide parentheses around a ruby text, to \r\nbe shown by browsers that do not support ruby annotations.</p>\r\n<p>Use the &lt;rp&gt; tag together with the <a href=\"https://www.w3schools.com/tags/tag_ruby.asp\">&lt;ruby&gt;</a> and the \r\n<a href=\"https://www.w3schools.com/tags/tag_rt.asp\">&lt;rt&gt;</a> tags: The &lt;ruby&gt; element consists of one or more characters that needs an \r\nexplanation/pronunciation, and an &lt;rt&gt; element that gives that information, and \r\nan optional &lt;rp&gt; element that defines what to show for browsers that not support ruby annotations.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;rt&gt;",
-        "path": "https://www.w3schools.com/tags/tag_rt.asp"
+        "tag_name": "<rt>",
+        "path": "https://www.w3schools.com/tags/tag_rt.asp",
+        "description": "<p>The &lt;rt&gt; tag defines an explanation or pronunciation of characters (for East Asian typography) in a ruby annotation.</p>\r\n<p>Use the &lt;rt&gt; tag together with the <a href=\"https://www.w3schools.com/tags/tag_ruby.asp\">&lt;ruby&gt;</a> and the \r\n<a href=\"https://www.w3schools.com/tags/tag_rp.asp\">&lt;rp&gt;</a> tags: The &lt;ruby&gt; element consists of one or more characters that needs an \r\nexplanation/pronunciation, and an &lt;rt&gt; element that gives that information, and \r\nan optional &lt;rp&gt; element that defines what to show for browsers that not support ruby annotations.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;ruby&gt;",
-        "path": "https://www.w3schools.com/tags/tag_ruby.asp"
+        "tag_name": "<ruby>",
+        "path": "https://www.w3schools.com/tags/tag_ruby.asp",
+        "description": "<p>The &lt;ruby&gt; tag specifies a ruby annotation.</p>\r\n<p>A ruby annotation is a small extra text, attached to the main text to \r\nindicate the pronunciation or meaning of the corresponding characters. This kind \r\nof annotation is often used in Japanese publications.</p>\r\n<p>Use the &lt;ruby&gt; tag together with the <a href=\"https://www.w3schools.com/tags/tag_rt.asp\">&lt;rt&gt;</a> and/or the \r\n<a href=\"https://www.w3schools.com/tags/tag_rp.asp\">&lt;rp&gt;</a> tags: The &lt;ruby&gt; element consists of one or more characters that needs an \r\nexplanation/pronunciation, and an &lt;rt&gt; element that gives that information, and \r\nan optional &lt;rp&gt; element that defines what to show for browsers that do not support ruby annotations.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;s&gt;",
-        "path": "https://www.w3schools.com/tags/tag_s.asp"
+        "tag_name": "<s>",
+        "path": "https://www.w3schools.com/tags/tag_s.asp",
+        "description": "<p>The &lt;s&gt; tag specifies text that is no longer correct, accurate or relevant.</p>\r\n<p>The &lt;s&gt; tag should not be used to define replaced or deleted text, use the \r\n<a href=\"https://www.w3schools.com/tags/tag_del.asp\">&lt;del&gt;</a> \r\ntag to define replaced or deleted text.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;samp&gt;",
-        "path": "https://www.w3schools.com/tags/tag_samp.asp"
+        "tag_name": "<samp>",
+        "path": "https://www.w3schools.com/tags/tag_samp.asp",
+        "description": "<p>The &lt;samp&gt; tag is a phrase tag. It defines sample output from a computer program.</p>\r\n<p><strong>Tip:</strong> This tag is not deprecated, but it is possible to achieve richer effect with CSS.</p>\r\n<p>All phrase tags:</p>\r\n<table class=\"w3-table-all notranslate\" id=\"table1\"> \r\n  <tr>\r\n    <th style=\"width:15%\">Tag</th>\r\n    <th>Description</th>\r\n  </tr>  \r\n  <tr>\r\n    <td width=\"20%\"><a href=\"https://www.w3schools.com/tags/tag_em.asp\">&lt;em&gt;</a></td>\r\n    <td width=\"80%\">Renders as emphasized text</td>\r\n  </tr>\r\n  <tr>\r\n    <td><a href=\"https://www.w3schools.com/tags/tag_strong.asp\">&lt;strong&gt;</a></td>\r\n    <td>Defines important text</td>\r\n  </tr>\r\n  <tr>\r\n    <td><a href=\"https://www.w3schools.com/tags/tag_code.asp\">&lt;code&gt;</a></td>\r\n    <td>Defines a piece of computer code</td>\r\n  </tr>\r\n  <tr>\r\n    <td><a href=\"https://www.w3schools.com/tags/tag_samp.asp\">&lt;samp&gt;</a></td>\r\n    <td>Defines sample output from a computer program</td>\r\n  </tr>\r\n  <tr>\r\n    <td><a href=\"https://www.w3schools.com/tags/tag_kbd.asp\">&lt;kbd&gt;</a></td>\r\n    <td>Defines keyboard input</td>\r\n  </tr>\r\n  <tr>\r\n    <td><a href=\"https://www.w3schools.com/tags/tag_var.asp\">&lt;var&gt;</a></td>\r\n    <td>Defines a variable</td>\r\n  </tr>\r\n  </table>\r\n<hr>"
     },
     {
-        "tag": "&lt;script&gt;",
-        "path": "https://www.w3schools.com/tags/tag_script.asp"
+        "tag_name": "<script>",
+        "path": "https://www.w3schools.com/tags/tag_script.asp",
+        "description": "<p>The &lt;script&gt; tag is used to define a client-side script (JavaScript).</p>\r\n<p>The &lt;script&gt; element either contains scripting statements, or it points to an external script file through the src attribute.</p>\r\n<p>Common uses for JavaScript are image manipulation, form validation, and dynamic changes of content.</p>\r\n<p><strong>Tip:</strong> If you want to learn JavaScript, visit our <a href=\"https://www.w3schools.com/tags//js/default.asp\">JavaScript \r\nTutorial</a>.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;section&gt;",
-        "path": "https://www.w3schools.com/tags/tag_section.asp"
+        "tag_name": "<section>",
+        "path": "https://www.w3schools.com/tags/tag_section.asp",
+        "description": "<p>The &lt;section&gt; tag defines sections in a document, such as chapters, \r\nheaders, footers, or any other sections of the document.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;select&gt;",
-        "path": "https://www.w3schools.com/tags/tag_select.asp"
+        "tag_name": "<select>",
+        "path": "https://www.w3schools.com/tags/tag_select.asp",
+        "description": "<p>The &lt;select&gt; element is used to create a drop-down list.</p>\r\n<p>The <a href=\"https://www.w3schools.com/tags/tag_option.asp\">&lt;option&gt;</a> tags inside the &lt;select&gt; element define the available options in \r\nthe list.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;small&gt;",
-        "path": "https://www.w3schools.com/tags/tag_small.asp"
+        "tag_name": "<small>",
+        "path": "https://www.w3schools.com/tags/tag_small.asp",
+        "description": "<p>The &lt;small&gt; tag defines smaller text (and other side comments).</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;source&gt;",
-        "path": "https://www.w3schools.com/tags/tag_source.asp"
+        "tag_name": "<source>",
+        "path": "https://www.w3schools.com/tags/tag_source.asp",
+        "description": "<p>The &lt;source&gt; tag is used to specify multiple media resources for media elements, such as &lt;video&gt;, &lt;audio&gt;, \r\nand &lt;picture&gt;.</p>\r\n<p>The &lt;source&gt; tag allows you to specify alternative video/audio/image \r\nfiles which the browser may choose from, based on its media type, codec support \r\nor media query.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;span&gt;",
-        "path": "https://www.w3schools.com/tags/tag_span.asp"
+        "tag_name": "<span>",
+        "path": "https://www.w3schools.com/tags/tag_span.asp",
+        "description": "<p>The &lt;span&gt; tag is used to group inline-elements in a document.</p>\r\n<p>The &lt;span&gt; tag provides no visual change by itself.</p>\r\n<p>The &lt;span&gt; tag provides a way to add a hook to a part of a text or a part of a document.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;strike&gt;",
-        "path": "https://www.w3schools.com/tags/tag_strike.asp"
+        "tag_name": "<strike>",
+        "path": "https://www.w3schools.com/tags/tag_strike.asp",
+        "description": "<p><span class=\"deprecated\">The &lt;strike&gt; tag is not supported in HTML5. Use \r\n<a href=\"https://www.w3schools.com/tags/tag_del.asp\">&lt;del&gt;</a> or <a href=\"https://www.w3schools.com/tags/tag_s.asp\">&lt;s&gt;</a> instead.</span></p>\r\n<p>The &lt;strike&gt; tag defines strikethrough text.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;strong&gt;",
-        "path": "https://www.w3schools.com/tags/tag_strong.asp"
+        "tag_name": "<strong>",
+        "path": "https://www.w3schools.com/tags/tag_strong.asp",
+        "description": "<p>The &lt;strong&gt; tag is a phrase tag. It defines important text.</p>\r\n<p><strong>Tip:</strong> This tag is not deprecated, but it is possible to achieve richer effect with CSS.</p>\r\n<p>All phrase tags:</p>\r\n<table class=\"w3-table-all notranslate\" id=\"table1\"> \r\n  <tr>\r\n    <th style=\"width:15%\">Tag</th>\r\n    <th>Description</th>\r\n  </tr>  \r\n  <tr>\r\n    <td width=\"20%\"><a href=\"https://www.w3schools.com/tags/tag_em.asp\">&lt;em&gt;</a></td>\r\n    <td width=\"80%\">Renders as emphasized text</td>\r\n  </tr>\r\n  <tr>\r\n    <td><a href=\"https://www.w3schools.com/tags/tag_strong.asp\">&lt;strong&gt;</a></td>\r\n    <td>Defines important text</td>\r\n  </tr>\r\n  <tr>\r\n    <td><a href=\"https://www.w3schools.com/tags/tag_code.asp\">&lt;code&gt;</a></td>\r\n    <td>Defines a piece of computer code</td>\r\n  </tr>\r\n  <tr>\r\n    <td><a href=\"https://www.w3schools.com/tags/tag_samp.asp\">&lt;samp&gt;</a></td>\r\n    <td>Defines sample output from a computer program</td>\r\n  </tr>\r\n  <tr>\r\n    <td><a href=\"https://www.w3schools.com/tags/tag_kbd.asp\">&lt;kbd&gt;</a></td>\r\n    <td>Defines keyboard input</td>\r\n  </tr>\r\n  <tr>\r\n    <td><a href=\"https://www.w3schools.com/tags/tag_var.asp\">&lt;var&gt;</a></td>\r\n    <td>Defines a variable</td>\r\n  </tr>\r\n  </table>\r\n<hr>"
     },
     {
-        "tag": "&lt;style&gt;",
-        "path": "https://www.w3schools.com/tags/tag_style.asp"
+        "tag_name": "<style>",
+        "path": "https://www.w3schools.com/tags/tag_style.asp",
+        "description": "<p>The &lt;style&gt; tag is used to define style information for an HTML document.</p>\r\n<p>Inside the &lt;style&gt; element you specify how HTML elements should render in a browser.</p>\r\n<p>Each HTML document can contain multiple &lt;style&gt; tags.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;sub&gt;",
-        "path": "https://www.w3schools.com/tags/tag_sub.asp"
+        "tag_name": "<sub>",
+        "path": "https://www.w3schools.com/tags/tag_sub.asp",
+        "description": "<p>The &lt;sub&gt; tag defines subscript text. Subscript text appears half a character below the \r\nnormal line, and is sometimes rendered in a smaller font. Subscript text can be used for chemical formulas, like H<sub>2</sub>O.</p>\r\n<p><strong>Tip:</strong> Use the <a href=\"https://www.w3schools.com/tags/tag_sup.asp\">&lt;sup&gt;</a> tag to define \r\nsuperscripted text. </p>\r\n<hr>"
     },
     {
-        "tag": "&lt;summary&gt;",
-        "path": "https://www.w3schools.com/tags/tag_summary.asp"
+        "tag_name": "<summary>",
+        "path": "https://www.w3schools.com/tags/tag_summary.asp",
+        "description": "<p>The &lt;summary&gt; tag defines a visible heading for the <a href=\"https://www.w3schools.com/tags/tag_details.asp\">&lt;details&gt;</a> element.\r\nThe heading can be clicked to view/hide the details.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;sup&gt;",
-        "path": "https://www.w3schools.com/tags/tag_sup.asp"
+        "tag_name": "<sup>",
+        "path": "https://www.w3schools.com/tags/tag_sup.asp",
+        "description": "<p>The &lt;sup&gt; tag defines superscript text. Superscript text appears half a character above the \r\nnormal line, and is sometimes rendered in a smaller font. Superscript text can be used for footnotes, like WWW<sup>[1]</sup>.</p>\r\n<p><strong>Tip:</strong> Use the <a href=\"https://www.w3schools.com/tags/tag_sub.asp\">&lt;sub&gt;</a> tag to define subscript text. </p>\r\n<hr>"
     },
     {
-        "tag": "&lt;svg&gt;",
-        "path": "https://www.w3schools.com/tags/tag_svg.asp"
+        "tag_name": "<svg>",
+        "path": "https://www.w3schools.com/tags/tag_svg.asp",
+        "description": "<p>The &lt;svg&gt; tag defines a container for SVG graphics.</p>\r\n<p>SVG has several methods for drawing paths, boxes, circles, text, and graphic \r\nimages.</p>\r\n<p>To learn more about SVG, please read our <a href=\"https://www.w3schools.com/tags//graphics/svg_intro.asp\">\r\nSVG Tutorial</a>.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;table&gt;",
-        "path": "https://www.w3schools.com/tags/tag_table.asp"
+        "tag_name": "<table>",
+        "path": "https://www.w3schools.com/tags/tag_table.asp",
+        "description": "<p>The &lt;table&gt; tag defines an HTML table.</p>\r\n<p>An HTML table consists of the &lt;table&gt; element and one or more <a href=\"https://www.w3schools.com/tags/tag_tr.asp\">&lt;tr&gt;</a>, \r\n<a href=\"https://www.w3schools.com/tags/tag_th.asp\">&lt;th&gt;</a>, and <a href=\"https://www.w3schools.com/tags/tag_td.asp\">&lt;td&gt;</a> elements.</p>\r\n<p>The &lt;tr&gt; element defines a table row, the &lt;th&gt; element defines a table header, and the \r\n&lt;td&gt; element defines a table cell.</p>\r\n<p>A more complex HTML table may also include &lt;caption&gt;, &lt;col&gt;, &lt;colgroup&gt;, &lt;thead&gt;, \r\n&lt;tfoot&gt;, and &lt;tbody&gt; elements. </p>\r\n<div class=\"w3-panel w3-note\">\r\n  <p><strong>Note:</strong> Tables should not be used for page layout! \r\n  Historically, some Web authors have misused tables in HTML as a way to control \r\n  their page layout. However, there are a variety of alternatives to using HTML \r\n  tables for layout, primarily using CSS.</p>\r\n</div>\r\n<hr>"
     },
     {
-        "tag": "&lt;tbody&gt;",
-        "path": "https://www.w3schools.com/tags/tag_tbody.asp"
+        "tag_name": "<tbody>",
+        "path": "https://www.w3schools.com/tags/tag_tbody.asp",
+        "description": "<p>The &lt;tbody&gt; tag is used to group the body content in an HTML table.</p>\r\n<p>The &lt;tbody&gt; element is used in conjunction with the <a href=\"https://www.w3schools.com/tags/tag_thead.asp\">&lt;thead&gt;</a> and \r\n<a href=\"https://www.w3schools.com/tags/tag_tfoot.asp\">&lt;tfoot&gt;</a> elements to specify each part of a table (body, header, footer).</p>\r\n<p>Browsers can use these elements to enable scrolling of the table body independently of the header and footer. Also, when printing a large table that spans multiple pages, these elements can enable the table header and footer to be printed at the top and bottom of each page.</p>\r\n<p>The &lt;tbody&gt; tag must be used in the following context: As a child of a &lt;table&gt; element, after any &lt;caption&gt;, &lt;colgroup&gt;, and &lt;thead&gt; elements.</p>\r\n<hr>\r\n<div id=\"midcontentadcontainer\" style=\"overflow:auto;text-align:center\">\r\n<!-- MidContent -->\r\n\r\n  <div id='div-gpt-ad-1493883843099-0' style=\"display: inline-block\">\r\n    <script>\r\n    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1493883843099-0'); });\r\n    </script>\r\n  </div>\r\n    \r\n</div>\r\n<hr>"
     },
     {
-        "tag": "&lt;td&gt;",
-        "path": "https://www.w3schools.com/tags/tag_td.asp"
+        "tag_name": "<td>",
+        "path": "https://www.w3schools.com/tags/tag_td.asp",
+        "description": "<p>The &lt;td&gt; tag defines a standard cell in an HTML table.</p>\r\n<p>An HTML table has two kinds of cells:</p>\r\n<ul>\r\n  <li>Header cells - contains header information (created with the\r\n <a href=\"https://www.w3schools.com/tags/tag_th.asp\">&lt;th&gt;</a> element)</li>\r\n  <li>Standard cells - contains data (created with the &lt;td&gt; element)</li>\r\n</ul>\r\n<p>The text in &lt;th&gt; elements are bold and centered by default.</p>\r\n<p>The text in &lt;td&gt; elements are regular and left-aligned by default.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;template&gt;",
-        "path": "https://www.w3schools.com/tags/tag_template.asp"
+        "tag_name": "<template>",
+        "path": "https://www.w3schools.com/tags/tag_template.asp",
+        "description": "<p>The &lt;template&gt; tag holds its content hidden from the client.</p>\r\n<p>Content inside a &lt;template&gt; tag will not be rendered.</p>\r\n<p>The content can be visible and rendered later by using JavaScript.</p>\r\n<p>Use the &lt;template&gt; tag when you have HTML code you want to use over and over \r\nagain, but not until you ask for it. To do this <em>without</em> the &lt;template&gt; tag, you \r\nhave to create the HTML code with JavaScript to prevent the browser from \r\nrendering the code.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;textarea&gt;",
-        "path": "https://www.w3schools.com/tags/tag_textarea.asp"
+        "tag_name": "<textarea>",
+        "path": "https://www.w3schools.com/tags/tag_textarea.asp",
+        "description": "<p>The &lt;textarea&gt; tag defines a multi-line text input control.</p>\r\n<p>A text area can hold an unlimited number of characters, and the text renders in a fixed-width font (usually Courier).</p>\r\n<p>The size of a text area can be specified by the cols and rows attributes, or even \r\nbetter; through CSS' height and width properties.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;tfoot&gt;",
-        "path": "https://www.w3schools.com/tags/tag_tfoot.asp"
+        "tag_name": "<tfoot>",
+        "path": "https://www.w3schools.com/tags/tag_tfoot.asp",
+        "description": "<p>The &lt;tfoot&gt; tag is used to group footer content in an HTML table.</p>\r\n<p>The &lt;tfoot&gt; element is used in conjunction with the <a href=\"https://www.w3schools.com/tags/tag_thead.asp\">\r\n&lt;thead&gt;</a> and <a href=\"https://www.w3schools.com/tags/tag_tbody.asp\">&lt;tbody&gt;</a> elements to specify each \r\npart of a table (footer, header, body).</p>\r\n<p>Browsers can use these elements to enable scrolling of the table body \r\nindependently of the header and footer. Also, when printing a large table that \r\nspans multiple pages, these elements can enable the table header and footer to \r\nbe printed at the top and bottom of each page.</p>\r\n<p>The &lt;tfoot&gt; tag must be used in the following context: As a child of a \r\n&lt;table&gt; element, after any &lt;caption&gt;, &lt;colgroup&gt;, &lt;thead&gt;, \r\nand &lt;tbody&gt; elements.</p>\r\n<hr>\r\n<div id=\"midcontentadcontainer\" style=\"overflow:auto;text-align:center\">\r\n<!-- MidContent -->\r\n\r\n  <!--<pre>mid_content, all: [300,250][336,280][728,90][970,250][970,90][320,50][468,60]</pre>-->\r\n  <div id=\"snhb-mid_content-0\"></div>\r\n    \r\n</div>\r\n<hr>"
     },
     {
-        "tag": "&lt;th&gt;",
-        "path": "https://www.w3schools.com/tags/tag_th.asp"
+        "tag_name": "<th>",
+        "path": "https://www.w3schools.com/tags/tag_th.asp",
+        "description": "<p>The &lt;th&gt; tag defines a header cell in an HTML table.</p>\r\n<p>An HTML table has two kinds of cells:</p>\r\n<ul>\r\n  <li>Header cells - contains header information (created with the\r\n &lt;th&gt; element)</li>\r\n  <li>Standard cells - contains data (created with the <a href=\"https://www.w3schools.com/tags/tag_td.asp\">&lt;td&gt;</a> element)</li>\r\n</ul>\r\n<p>The text in &lt;th&gt; elements are bold and centered by default.</p>\r\n<p>The text in &lt;td&gt; elements are regular and left-aligned by default.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;thead&gt;",
-        "path": "https://www.w3schools.com/tags/tag_thead.asp"
+        "tag_name": "<thead>",
+        "path": "https://www.w3schools.com/tags/tag_thead.asp",
+        "description": "<p>The &lt;thead&gt; tag is used to group header content in an HTML table.</p>\r\n<p>The &lt;thead&gt; element is used in conjunction with the <a href=\"https://www.w3schools.com/tags/tag_tbody.asp\"> &lt;tbody&gt;</a> and <a href=\"https://www.w3schools.com/tags/tag_tfoot.asp\">&lt;tfoot&gt;</a> elements to specify each part of a table (header, body, footer).</p>\r\n<p>Browsers can use these elements to enable scrolling of the table body independently of the header and footer. Also, when printing a large table that spans multiple pages, these elements can enable the table header and footer to be printed at the top and bottom of each page.</p>\r\n<p>The &lt;thead&gt; tag must be used in the following context: As a child of a &lt;table&gt; element, after any &lt;caption&gt;, and &lt;colgroup&gt; elements, and before any &lt;tbody&gt;, &lt;tfoot&gt;, and &lt;tr&gt; elements.</p>\r\n<hr>\r\n<div id=\"midcontentadcontainer\" style=\"overflow:auto;text-align:center\">\r\n<!-- MidContent -->\r\n\r\n  <!--<pre>mid_content, all: [300,250][336,280][728,90][970,250][970,90][320,50][468,60]</pre>-->\r\n  <div id=\"snhb-mid_content-0\"></div>\r\n    \r\n</div>\r\n<hr>"
     },
     {
-        "tag": "&lt;time&gt;",
-        "path": "https://www.w3schools.com/tags/tag_time.asp"
+        "tag_name": "<time>",
+        "path": "https://www.w3schools.com/tags/tag_time.asp",
+        "description": "<p>The &lt;time&gt; tag defines a human-readable date/time.</p>\r\n<p>This element can also be used to encode dates and times in a \r\nmachine-readable way so that user agents can offer to add birthday \r\nreminders or scheduled events to the user's calendar, and search engines can \r\nproduce smarter search results.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;title&gt;",
-        "path": "https://www.w3schools.com/tags/tag_title.asp"
+        "tag_name": "<title>",
+        "path": "https://www.w3schools.com/tags/tag_title.asp",
+        "description": "<p>The &lt;title&gt; tag is required in all HTML documents and it defines the title of the document.</p>\r\n<p>The &lt;title&gt; element:</p>\r\n<ul>\r\n  <li>defines a title in the browser toolbar</li>\r\n  <li>provides a title for the page when it is added to favorites</li>\r\n  <li>displays a title for the page in search-engine results</li>\r\n</ul>\r\n<hr>"
     },
     {
-        "tag": "&lt;tr&gt;",
-        "path": "https://www.w3schools.com/tags/tag_tr.asp"
+        "tag_name": "<tr>",
+        "path": "https://www.w3schools.com/tags/tag_tr.asp",
+        "description": "<p>The &lt;tr&gt; tag defines a row in an HTML table.</p>\r\n<p>A &lt;tr&gt; element contains one or more <a href=\"https://www.w3schools.com/tags/tag_th.asp\">&lt;th&gt;</a> or \r\n<a href=\"https://www.w3schools.com/tags/tag_td.asp\">&lt;td&gt;</a> elements.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;track&gt;",
-        "path": "https://www.w3schools.com/tags/tag_track.asp"
+        "tag_name": "<track>",
+        "path": "https://www.w3schools.com/tags/tag_track.asp",
+        "description": "<p>The &lt;track&gt; tag specifies text tracks for media elements (&lt;audio&gt; and &lt;video&gt;).</p>\r\n<p>This element is used to specify subtitles, caption files or other files containing \r\ntext, that should be visible when the media is playing.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;tt&gt;",
-        "path": "https://www.w3schools.com/tags/tag_tt.asp"
+        "tag_name": "<tt>",
+        "path": "https://www.w3schools.com/tags/tag_tt.asp",
+        "description": "<p><span class=\"deprecated\">The &lt;tt&gt; tag is not supported in HTML5.</span></p>\r\n<p><span class=\"deprecated\">If &lt;tt&gt; was used for marking up keyboard input, \r\nconsider the <a href=\"https://www.w3schools.com/tags/tag_kbd.asp\">&lt;kbd&gt;</a> element; for \r\nvariables, consider the <a href=\"https://www.w3schools.com/tags/tag_var.asp\">&lt;var&gt;</a> element; for computer code, consider the <a href=\"https://www.w3schools.com/tags/tag_code.asp\">&lt;code&gt;</a> \r\nelement; and for computer output, consider the <a href=\"https://www.w3schools.com/tags/tag_samp.asp\">&lt;samp&gt;</a> element, or use CSS \r\ninstead.</span></p>\r\n<p>The &lt;tt&gt; tag defines teletype text.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;u&gt;",
-        "path": "https://www.w3schools.com/tags/tag_u.asp"
+        "tag_name": "<u>",
+        "path": "https://www.w3schools.com/tags/tag_u.asp",
+        "description": "<p>The &lt;u&gt; tag represents some text that should be stylistically different \r\nfrom normal text, such as misspelled words or proper nouns in Chinese.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;ul&gt;",
-        "path": "https://www.w3schools.com/tags/tag_ul.asp"
+        "tag_name": "<ul>",
+        "path": "https://www.w3schools.com/tags/tag_ul.asp",
+        "description": "<p>The &lt;ul&gt; tag defines an unordered (bulleted) list.</p>\r\n<p>Use the &lt;ul&gt; tag together with the <a href=\"https://www.w3schools.com/tags/tag_li.asp\">&lt;li&gt;</a> tag to \r\ncreate unordered lists.</p>\r\n<hr>"
     },
     {
-        "tag": "&lt;var&gt;",
-        "path": "https://www.w3schools.com/tags/tag_var.asp"
+        "tag_name": "<var>",
+        "path": "https://www.w3schools.com/tags/tag_var.asp",
+        "description": "<p>The &lt;var&gt; tag is a phrase tag. It defines a variable.</p>\r\n<p><strong>Tip:</strong> This tag is not deprecated, but\r\nit is possible to achieve richer effect with CSS.</p>\r\n<p>All phrase tags:</p>\r\n<table class=\"w3-table-all notranslate\" id=\"table1\"> \r\n  <tr>\r\n    <th style=\"width:15%\">Tag</th>\r\n    <th>Description</th>\r\n  </tr>  \r\n  <tr>\r\n    <td width=\"20%\"><a href=\"https://www.w3schools.com/tags/tag_em.asp\">&lt;em&gt;</a></td>\r\n    <td width=\"80%\">Renders as emphasized text</td>\r\n  </tr>\r\n  <tr>\r\n    <td><a href=\"https://www.w3schools.com/tags/tag_strong.asp\">&lt;strong&gt;</a></td>\r\n    <td>Defines important text</td>\r\n  </tr>\r\n  <tr>\r\n    <td><a href=\"https://www.w3schools.com/tags/tag_code.asp\">&lt;code&gt;</a></td>\r\n    <td>Defines a piece of computer code</td>\r\n  </tr>\r\n  <tr>\r\n    <td><a href=\"https://www.w3schools.com/tags/tag_samp.asp\">&lt;samp&gt;</a></td>\r\n    <td>Defines sample output from a computer program</td>\r\n  </tr>\r\n  <tr>\r\n    <td><a href=\"https://www.w3schools.com/tags/tag_kbd.asp\">&lt;kbd&gt;</a></td>\r\n    <td>Defines keyboard input</td>\r\n  </tr>\r\n  <tr>\r\n    <td><a href=\"https://www.w3schools.com/tags/tag_var.asp\">&lt;var&gt;</a></td>\r\n    <td>Defines a variable</td>\r\n  </tr>\r\n  </table>\r\n<hr>"
     },
     {
-        "tag": "&lt;video&gt;",
-        "path": "https://www.w3schools.com/tags/tag_video.asp"
+        "tag_name": "<video>",
+        "path": "https://www.w3schools.com/tags/tag_video.asp",
+        "description": "<p>The &lt;video&gt; tag specifies video, such as a movie clip or other video streams.</p>\r\n<p>Currently, there are 3 supported video formats for the &lt;video&gt; element: MP4, WebM, and Ogg:</p>\r\n<table class=\"w3-table-all notranslate\" id=\"table2\">\r\n<tr>\r\n<th style=\"width:25%\">Browser</th>\r\n<th style=\"width:25%\">MP4</th>\r\n<th style=\"width:25%\">WebM</th>\r\n<th style=\"width:25%\">Ogg</th>\r\n</tr>\r\n<tr>\r\n<td>Internet Explorer</td>\r\n<td>YES</td>\r\n<td>NO</td>\r\n<td>NO</td>\r\n</tr>\r\n<tr>\r\n<td>Chrome</td>\r\n<td>YES</td>\r\n<td>YES</td>\r\n<td>YES</td>\r\n</tr>\r\n<tr>\r\n<td>Firefox</td>\r\n<td>YES<br>from Firefox 21<br>from Firefox 30 for Linux</td>\r\n<td>YES</td>\r\n<td>YES</td>\r\n</tr>\r\n<tr>\r\n<td>Safari</td>\r\n<td>YES</td>\r\n<td>NO</td>\r\n<td>NO</td>\r\n</tr>\r\n<tr>\r\n<td>Opera</td>\r\n<td>YES<br>From Opera 25 </td>\r\n<td>YES</td>\r\n<td>YES</td>\r\n</tr>\r\n</table>\r\n<ul>\r\n  <li>MP4 = MPEG 4 files with H264 video codec and AAC audio codec</li>\r\n  <li>WebM = WebM files with VP8 video codec and Vorbis audio codec</li>\r\n  <li>Ogg = Ogg files with Theora video codec and Vorbis audio codec</li>\r\n</ul>\r\n\r\n<h3>MIME Types for Video Formats</h3>\r\n<table class=\"w3-table-all notranslate\" id=\"table3\">\r\n<tr>\r\n<th style=\"width:50%\">Format</th>\r\n<th style=\"width:50%\">MIME-type</th>\r\n</tr>\r\n<tr>\r\n<td>MP4</td>\r\n<td>video/mp4</td>\r\n</tr>\r\n<tr>\r\n<td>WebM</td>\r\n<td>video/webm</td>\r\n</tr>\r\n<tr>\r\n<td>Ogg</td>\r\n<td>video/ogg</td>\r\n</tr>\r\n</table>\r\n<hr>\r\n<div id=\"midcontentadcontainer\" style=\"overflow:auto;text-align:center\">\r\n<!-- MidContent -->\r\n\r\n  <div id='div-gpt-ad-1493883843099-0' style=\"display: inline-block\">\r\n    <script>\r\n    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1493883843099-0'); });\r\n    </script>\r\n  </div>\r\n    \r\n</div>\r\n<hr>"
     },
     {
-        "tag": "&lt;wbr&gt;",
-        "path": "https://www.w3schools.com/tags/tag_wbr.asp"
+        "tag_name": "<wbr>",
+        "path": "https://www.w3schools.com/tags/tag_wbr.asp",
+        "description": "<p>The &lt;wbr&gt; (Word Break Opportunity) tag specifies where in a text it would be ok to add a line-break.</p>\r\n<p><b>Tip:</b> When a word is too long, or you are afraid that the browser will break your \r\nlines at the wrong place, you can use the &lt;wbr&gt; element to add word break opportunities.</p>\r\n<hr>"
     }
 ]

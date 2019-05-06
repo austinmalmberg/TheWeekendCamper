@@ -15,5 +15,5 @@ header(class=cHeader)
     section(class=cNavbar)
       - const navbar = site.getNavbar();
       each page in navbar
-          a.nav-itme.nav-link(href=`${page.path}` class=`${ page.isDisabled ? 'disabled' : '' }`)
+          a.nav-item.nav-link.mx-3(href=`${page.path}` class=`${ page.isDisabled ? 'disabled' : '' }`)
             =page.name

@@ -1,14 +1,16 @@
-footer.container.d-flex.justify-content-between.align-items-center
+-const cFooter = ['container', 'my-4', 'py-3', 'site-footer', 'd-flex', 'justify-content-between', 'align-items-center']
+
+footer(class=cFooter)
 
   .html-validator
     a(href='http://jigsaw.w3.org/css-validator/check/referer')
       img(src='../images/valid_html5.gif' alt='HTML validator image')
 
   .copyright.text-center
-    p= `© 2018-2019 ${brand.author.name}`
-    a(href=`mailto:${brand.author.email}`)
+    p.m-0= `© 2018-2019 ${brand.author.name}`
+    a.m-0(href=`mailto:${brand.author.email}`)
       =brand.author.email
-      
+
   .css-validator
     a(href='http://validator.w3.org/check?uri=referer')
       img(src='../images/valid_css.gif' alt='CSS validator image')

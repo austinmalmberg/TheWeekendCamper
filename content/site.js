@@ -1,4 +1,10 @@
 const pages = {
+  index: {
+    name: 'Home',
+    path: '/',
+    title: 'Table of Contents',
+    concepts: ['Branding', 'Dynamic TOC', 'MEAN', 'Nodejs', 'Express', 'Bootstrap']
+  },
   about: {
     name: 'About',
     path: '/about',
@@ -14,17 +20,15 @@ const pages = {
     path: '/brand',
     title: 'My Brand'
   },
-  index: {
-    name: 'Home',
-    path: '/',
-    title: 'Table of Contents',
-    concepts: ['Branding', 'Dynamic TOC', 'MEAN', 'Nodejs', 'Express', 'Bootstrap']
+  codecademy_port: {
+    name: 'Codecademy Webpage Port',
+    path: '/codecademy-port'
   },
   gear: {
     name: 'Gear',
     path: '/gear',
     title: 'Current Gear',
-    concepts: ['Using sprites']
+    concepts: ['Using sprites/spritesheets']
   },
   compass: {
     name: 'Compass',
@@ -32,15 +36,11 @@ const pages = {
     title: 'Compass',
     concepts: ['One div graphic']
   },
-  codecademy_port: {
-    name: 'Codecademy Webpage Port',
-    path: '/codecademy-port'
-  },
   htmltags: {
     name: 'Everything HTML',
     path: '/htmltags',
     title: 'Everything HTML',
-    concepts: ['Webpage scraping', 'MongoDB', 'Basic CRUD']
+    concepts: ['Webpage scraping', 'Dynamic HTML', 'Basic CRUD', 'MongoDB']
   }
 };
 
@@ -50,8 +50,6 @@ function getNavbar() {
     about: pages.about,
     gear: pages.gear
   };
-
-  nav.about.isDisabled = true;
 
   return nav;
 }

@@ -1,9 +1,14 @@
 body {
-  min-width: 460px;
+  min-width: 560px;
+  font-size: 1.2em;
 }
 
 a {
   color: #00B7FF;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 ul {
@@ -14,6 +19,7 @@ li {
   list-style: none;
 }
 
+
 /* create dash before list item */
 li::before {
   content: '-';
@@ -21,15 +27,12 @@ li::before {
   padding-right: .4em;
 }
 
+
 /* HEADER */
 nav {
   background: url('/images/papers.co-my86-camping-night-star-galaxy-milky-sky-dark-space-bw-dark-29-wallpaper.jpg') no-repeat;
   background-position: bottom;
   background-size: cover;
-}
-
-.brand-logo:hover {
-  text-decoration: none;
 }
 
 .navbar-brand {

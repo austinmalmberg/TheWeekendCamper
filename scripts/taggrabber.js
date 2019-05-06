@@ -1,4 +1,3 @@
-const fs = require('fs');
 const fetch = require('node-fetch');
 const html2json = require('html2json').html2json;
 
@@ -10,20 +9,54 @@ const exampleHtmlStart = '<div class="w3-example">';
 const definitionHtmlStart = '<h2>Definition and Usage</h2>';
 const exampleHtmlEnd = '<h2>Browser Support</h2>';
 
-const filename = 'data/HTMLtags.json';
+const lt = '&lt;';
+const gt = '&gt;';
 
-function writeTagsToFile() {
+function scrapeTags() {
 
   console.log(`Beginning scrape from ${url}...`);
-  fetch(url)
+  return fetch(url)
     .then(response => response.text())
     .then(parseTagContainer)
     .then(getAsJSON)
     .then(formatData)
-    .then(writeData)
-    .catch((err) => console.log(err));
+    .then(appendDefinitions)
+    .catch(err => {});
+}
 
-    return true;
+function appendDefinitions(tagObjArray) {
+  const pending = [];
+
+  for(let tagObj of tagObjArray) {
+
+    const promise = scrapeDescription(tagObj.path)
+      .then(rawDescription => {
+        // change url path to w3schools
+        tagObj.description = rawDescription.replace(/href="/g, `href="${url}`);
+
+        return tagObj;
+      }).catch(err => tagObj);
+
+    pending.push(promise);
+  }
+
+  return Promise.all(pending);
+}
+
+function scrapeDescription(url) {
+
+  console.log(`Scraping description from ${url}...`);
+  return fetch(url)
+    .then(response => response.text())
+    .then(parseDefinition)
+    .catch(err => "");
+}
+
+function parseDefinition(rawHtml) {
+  const startIndex = rawHtml.indexOf(definitionHtmlStart) + definitionHtmlStart.length;
+  const endIndex = rawHtml.indexOf('<h2>', startIndex);
+
+  return rawHtml.slice(startIndex, endIndex).trim();
 }
 
 function parseTagContainer(rawHtml) {
@@ -42,11 +75,10 @@ function formatData(json) {
 
   return json.filter(element => element.tag === 'a') // get only anchor tags
       .reduce((tags, a, index) => { // convert tag and path into an object
-        const p = url + a.attr.href;
 
         const obj = {
-          tag: a.child[0].text,
-          path: p
+          tag_name: a.child[0].text.replace(lt, '<').replace(gt, '>'),
+          path: `${url}${a.attr.href}`
         }
 
         tags.push(obj);
@@ -63,18 +95,4 @@ function parseExampleDescription(rawHtml) {
   return rawHtml.slice(startIndex, endIndex).trim();
 }
 
-function writeData(content) {
-
-  fs.writeFile(filename, JSON.stringify(content, null, 4), 'utf8', (err) => {
-    if(err) throw err;
-
-    console.log(`Tags written to ${filename}.`)
-  });
-}
-
-// write file if the file doesn't exist or 30 minutes have elapsed
-if(!fs.existsSync(filename)) {
-  writeTagsToFile(filename);
-}
-
-module.exports = writeTagsToFile;
+module.exports = { scrapeTags };
