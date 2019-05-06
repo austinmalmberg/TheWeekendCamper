@@ -6,14 +6,22 @@ block content
   - const cInput = [];
 
   mixin formInput(labelText, type, inputId)
-    .col
+    .form-group
       label(for=`${inputId}`)= labelText
       input.form-control(id=`${inputId}`)
 
   if page && page.title
     h2= page.title
-    form
-      .form-group
+    section.section-firstclass.border.rounded
+      form
         +formInput('Name', 'text', 'name-input')
-        +formInput('Title', 'text', 'title-input')
-      .form-group
+        +formInput('Subject', 'text', 'title-input')
+        .form-group
+          label(for='msg-input') Message
+          textArea.form-control(id='msg-input' rows="3")
+
+    section.section-firstclass.border.rounded
+      if comments
+
+      else
+        p No comments yet.  You can be the first one!

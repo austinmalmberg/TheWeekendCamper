@@ -21,7 +21,7 @@ html(lang='en')
       .container
         .concepts(class=cConcepts)
             p!= 'This page demonstrates the following concepts:'
-            ul.dash-list
+            ul
               each concepts in page.concepts
                 li=concepts
 

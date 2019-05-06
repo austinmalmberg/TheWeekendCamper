@@ -45,7 +45,7 @@ const pages = {
   feedback: {
     name: 'Feedback',
     path: '/feedback',
-    title: 'Leave Me Some Feedback',
+    title: 'Leave Some Feedback!',
     concepts: ['Basic CRUD', 'MongoDB', 'Cookies']
   }
 };
