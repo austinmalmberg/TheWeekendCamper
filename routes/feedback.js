@@ -5,7 +5,7 @@ const brand = require('../content/brand');
 const site = require('../content/site');
 
 router.param('name', (req, res, next, id) => {
-  if(req.cookies.name != req.body.name) {
+  if(!req.cookies.name || req.cookies.name != req.body.name) {
     res.cookie('name', req.cookies.name);
     console.log('Name updated to ' + req.cookies.name);
   }
