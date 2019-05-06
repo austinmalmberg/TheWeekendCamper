@@ -26,6 +26,9 @@ app.use('/', indexRouter);
 const htmlTagsRouter = require('./routes/htmltags');
 app.use('/htmltags', htmlTagsRouter);
 
+const feedbackRouter = require('./routes/feedback');
+app.use('/feedback', feedbackRouter);
+
 // catch 404 and forward to error handler
 app.use((req, res, next) => {
   next(createError(404));
