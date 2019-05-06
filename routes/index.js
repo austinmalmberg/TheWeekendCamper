@@ -1,5 +1,6 @@
 const express = require('express');
 const router = express.Router();
+const cookieParser = require('cookie-parser');
 
 const site = require('../content/site');
 const brand = require('../content/brand');
@@ -26,6 +27,14 @@ router.get(site.urlFor('about'), (req, res, next) => {
   });
 });
 
+router.get(site.urlFor('contract'), (req, res, next) => {
+  res.render('contract', {
+    brand: brand,
+    site: site,
+    page: site.getPage('contract')
+  });
+});
+
 router.get(site.urlFor('gear'), (req, res, next) => {
 
   res.render('gear', {
@@ -33,14 +42,6 @@ router.get(site.urlFor('gear'), (req, res, next) => {
     site: site,
     page: site.getPage('gear'),
     gear: gear
-  });
-});
-
-router.get(site.urlFor('contract'), (req, res, next) => {
-  res.render('contract', {
-    brand: brand,
-    site: site,
-    page: site.getPage('contract')
   });
 });
 

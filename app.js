@@ -19,6 +19,17 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+let nextId = 1;
+
+app.use((req, res, next) => {
+
+  if(!req.cookies.id)
+    res.cookie('id', nextId);
+
+  console.log(req.cookies);
+
+  next();
+});
 
 const indexRouter = require('./routes/index');
 app.use('/', indexRouter);

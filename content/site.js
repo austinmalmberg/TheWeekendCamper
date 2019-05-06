@@ -3,7 +3,7 @@ const pages = {
     name: 'Home',
     path: '/',
     title: 'Table of Contents',
-    concepts: ['Branding', 'Dynamic TOC', 'MEAN', 'Nodejs', 'Express', 'Bootstrap']
+    concepts: ['Branding', 'Dynamic TOC', 'MEAN', 'Nodejs', 'Express', 'Bootstrap', 'Cookies']
   },
   about: {
     name: 'About',
@@ -46,7 +46,7 @@ const pages = {
     name: 'Feedback',
     path: '/feedback',
     title: 'Leave Some Feedback!',
-    concepts: ['Basic CRUD', 'MongoDB', 'Cookies']
+    concepts: ['Basic CRUD', 'MongoDB']
   }
 };
 
@@ -54,7 +54,8 @@ function getNavbar() {
   let nav = {
     index: pages.index,
     about: pages.about,
-    gear: pages.gear
+    gear: pages.gear,
+    feedback: pages.feedback
   };
 
   return nav;
